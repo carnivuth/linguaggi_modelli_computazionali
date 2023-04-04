@@ -80,14 +80,4 @@
 				- ![image.png](../assets/image_1680626917115_0.png)
 				- la ricorsione sinistra genera complicanze per il riconoscitore  tuttavia risulta necessaria in alcuni contesti per motivazioni culturali (*si veda per esempio le espressioni matematiche che sono associative a sinistra*)
 				- la rimozione della ricorsione sinistra implica una riscrittura esplicita delle regole del linguaggio, alterando la sequenza di riconoscimento delle frasi **questo non è accettabile quando si vuole attribuire un significato alla frase**
-	- #### RICONOSCERE LA TIPOLOGIA DI UN LINGUAGGIO
-		- #### PUMPING LEMMA
-			- è una condizione necessaria (*ma non sufficiente*) per dimostrare che un linguaggio è di ((642c29c2-4d60-4457-b9db-7438513172a5))
-			- può dimostrare la non appartenenza di un linguaggio al ((642c29c2-4d60-4457-b9db-7438513172a5))
-			- si basa sul concetto che in un linguaggio infinito a un certo punto deve essere presente una stringa che si ripete questa può essere ripetuta n volte (*pompata*) per ottenere nuove stringhe del linguaggio
-			- ![image.png](../assets/image_1680627935540_0.png)
-			- ![image.png](../assets/image_1680628015012_0.png)
-			- afferma che nei linguaggi di ((642c29c2-4d60-4457-b9db-7438513172a5)) e ((642c29c3-4149-4191-9f19-40157695c700)) **vi è sempre, per frasi abbastanza lunghe una parte che si ripete**
-			-
-			-
-			-
+	- per poter definire riconoscitori effficienti è necessario saper [[RICONOSCERE LA TIPOLOGIA DI UN LINGUAGGIO]]
