@@ -1,0 +1,16 @@
+- Formalismo per distinguere una particolare tipologia di grammatiche dove
+	- ![image.png](../assets/image_1681222625710_0.png)
+	- ![image.png](../assets/image_1681222734551_0.png)
+	- uno stesso linguaggio **può essere descritto da più espressioni regolari diverse**
+	- #### TEOREMA SULLE ESPRESSIONI REGOLARI
+		- ![image.png](../assets/image_1681222870812_0.png)
+	- rispetto a una grammatica di tipo 3, **l'espressione regolare mostra cosa si ottiene da un linguaggio** mentre la **grammatica mostra il come si ottiene**
+	- #### PASSAGGIO FRA RAPPRESENTAZIONI
+		- ##### DA GRAMMATICA A ESPRESSIONE REGOLARE
+			- si risolvono le equazioni sintattiche
+			- ##### ALGORITMO DI RISOLUZIONE
+				- ![image.png](../assets/image_1681225673500_0.png)
+				-
+		- ##### DA ESPRESSIONE REGOLARE A GRAMMATICA
+			- si interpretano gli operatori dell'espressione regolare e si ricostruiscono le regole del linguaggio
+		-
