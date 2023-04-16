@@ -13,4 +13,7 @@
 				-
 		- ##### DA ESPRESSIONE REGOLARE A GRAMMATICA
 			- si interpretano gli operatori dell'espressione regolare e si ricostruiscono le regole del linguaggio
+		- #### RIFLESSIONE SULLE ESPRESSIONI REGOLARI
+			- per un dato linguaggio esistono più espressioni regolari che lo descrivono, necessario trovare un **modo di ottenere espressioni equivalenti**
+			-
 		-
