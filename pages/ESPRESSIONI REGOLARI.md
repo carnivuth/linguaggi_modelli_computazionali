@@ -15,5 +15,12 @@
 			- si interpretano gli operatori dell'espressione regolare e si ricostruiscono le regole del linguaggio
 		- #### RIFLESSIONE SULLE ESPRESSIONI REGOLARI
 			- per un dato linguaggio esistono più espressioni regolari che lo descrivono, necessario trovare un **modo di ottenere espressioni equivalenti**
-			-
-		-
+			- ![image.png](../assets/image_1681653272750_0.png)
+			- #### POSSIBILI METODOLOGIE
+				- ##### operando algebricamente sulle espressioni
+					- complesso date le scarse proprietà degli operatori
+				- ##### operando sulle macchine corrispondenti
+					- esistono algoritmi pratici per la trasformazione di macchine in altre macchine
+					- le macchine possono essere ricondotte a un espressione regolare
+		- ## CONFRONTO FRA ESPRESSIONI REGOLARI E GRAMMATICHE
+			- ![image.png](../assets/image_1681653433735_0.png)
