@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "5f16d1a25065e2e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "77fdf3967607fefe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c89d45e7148da5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023_03_27.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7378a551bc236db2",
+    "type": "split",
+    "children": [
+      {
+        "id": "17f57ad1928dfdf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a72b7fda9c1bdfbd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ace0e5074b6aef11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f030b3c9ca40bc47",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b8efc9ebee9581b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "de2e657930861198",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd22b02937cd5c75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "journals/2023_03_27.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00e77722582777d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "journals/2023_03_27.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2875dd54af1aa48f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "76ad16646458f7aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "journals/2023_03_27.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
+    }
+  },
+  "active": "2c89d45e7148da5d",
+  "lastOpenFiles": [
+    "journals/2023_04_16.md",
+    "journals/2023_04_03.md",
+    "journals/2023_03_27.md",
+    "readme.md",
+    "README.md"
+  ]
+}
