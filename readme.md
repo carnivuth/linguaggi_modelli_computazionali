@@ -1,7 +1,6 @@
-# INDEX
-	- [CLASSIFICAZIONE DELLE GRAMMATICHE (DI CHOMSKY).md](<pages/CLASSIFICAZIONE DELLE GRAMMATICHE (DI CHOMSKY).md>)
-	- [contents.md](<pages/contents.md>)
-	- [ESPRESSIONI REGOLARI.md](<pages/ESPRESSIONI REGOLARI.md>)
-	- [GRAMMATICA FORMALE.md](<pages/GRAMMATICA FORMALE.md>)
-	- [LINGUAGGI E GRAMMATICHE.md](<pages/LINGUAGGI E GRAMMATICHE.md>)
-	- [RICONOSCERE LA TIPOLOGIA DI UN LINGUAGGIO.md](<pages/RICONOSCERE LA TIPOLOGIA DI UN LINGUAGGIO.md>)
+# linguaggi_modelli_computazionali
+appunti di linguaggi e modelli computazionali, knowledgebase personale del corso del professor denti
+- ## indice
+- [[LINGUAGGI E GRAMMATICHE]]
+- [[GRAMMATICA FORMALE]]
+	- [[CLASSIFICAZIONE DELLE GRAMMATICHE (DI CHOMSKY)]]
