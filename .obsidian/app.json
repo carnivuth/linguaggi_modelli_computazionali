@@ -1,4 +1,7 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "pages"
+  "newFileFolderPath": "pages",
+  "trashOption": "none",
+  "attachmentFolderPath": "assets",
+  "showUnsupportedFiles": true
 }
