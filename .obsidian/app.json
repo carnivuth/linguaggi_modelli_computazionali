@@ -3,5 +3,6 @@
   "newFileFolderPath": "pages",
   "trashOption": "none",
   "attachmentFolderPath": "assets",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": true
 }
