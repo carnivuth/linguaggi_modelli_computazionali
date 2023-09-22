@@ -1,7 +1,7 @@
-- ## [[GRAMMATICHE DI TIPO 0]]
-- ## [[GRAMMATICHE DI TIPO 1]] 
-- ## [[GRAMMATICHE DI TIPO 2]]
-- ## [[GRAMMATICHE REGOLARI]]
+- ## [GRAMMATICHE DI TIPO 0](GRAMMATICHE%20DI%20TIPO%200.md)
+- ## [GRAMMATICHE DI TIPO 1](GRAMMATICHE%20DI%20TIPO%201.md)
+- ## [GRAMMATICHE DI TIPO 2](GRAMMATICHE%20DI%20TIPO%202.md)
+- ## [GRAMMATICHE REGOLARI](GRAMMATICHE%20REGOLARI.md)
 
 - ## CORRISPONDENZA TRA GRAMMATICHE E AUTOMA RICONOSCITORE
 - ![image.png](../assets/image_1680616881020_0.png)
@@ -9,7 +9,7 @@
 - ## GERARCHIA TRA LE GRAMMATICHE
 - ![Schemagrammatiche.jpg](../assets/Schemagrammatiche_1680617410509_0.jpg)
 	- ##### PROBLEMA DELLA STRINGA VUOTA
-		- i linguaggi generati da [[GRAMMATICHE DI TIPO 1]] non ammettono produzioni con la stringa vuota ma quelle di tipo 2 e 3 si
+		- i linguaggi generati da [GRAMMATICHE DI TIPO 1](GRAMMATICHE%20DI%20TIPO%201.md) non ammettono produzioni con la stringa vuota ma quelle di tipo 2 e 3 si
 		- data la relazione gerarchica grammatiche di tipo A possono generare linguaggi di tipo B con A>B **ma la grammatica di tipo A ha necessità computazionali più esose**
 	- #### GRAMMATICHE MODERNE
 		- le grammatiche dei linguaggi moderni sono di Tipo 2

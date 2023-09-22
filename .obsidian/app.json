@@ -4,5 +4,6 @@
   "trashOption": "none",
   "attachmentFolderPath": "assets",
   "showUnsupportedFiles": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }
