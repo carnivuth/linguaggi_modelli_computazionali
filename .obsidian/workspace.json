@@ -37,7 +37,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/app.json",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               }
             }
@@ -196,6 +196,7 @@
   },
   "active": "c1cb9f38d3fdba48",
   "lastOpenFiles": [
+    "pages/GRAMMATICHE.md",
     "pages/CLASSIFICAZIONE DELLE GRAMMATICHE (DI CHOMSKY).md",
     "readme.md",
     "pages/LINGUAGGI E GRAMMATICHE.md",
@@ -209,7 +210,6 @@
     "assets/Pasted image 20230919163144.png",
     "pages/GRAMMATICHE DI TIPO 2.md",
     "pages/GRAMMATICHE REGOLARI.md",
-    "pages/GRAMMATICHE.md",
     "pages/GRAMMATICHE DI TIPO 0.md",
     "pages/RICONOSCERE LA TIPOLOGIA DI UN LINGUAGGIO.md",
     "pages/ESPRESSIONI REGOLARI.md",
