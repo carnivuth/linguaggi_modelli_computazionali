@@ -40,7 +40,7 @@
 		- #### CARDINALITÀ
 			- numero di frasi di un linguaggio
 		- ##### ESEMPI
-			- ![image.png](../assets/image_1680530447048_0.png)
+			- ![image.png](image_1680530447048_0.png)
 				-
 		- #### CHIUSURA A*
 			- insieme **infinito** di tutte le stringhe ottenibili dall'alfabeto A
