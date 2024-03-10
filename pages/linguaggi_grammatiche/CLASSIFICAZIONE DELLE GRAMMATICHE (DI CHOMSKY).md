@@ -11,7 +11,7 @@
 
 esiste una relazione gerarchica fra le grammatiche, **un linguaggio generato da una grammatica di tipo inferiore può essere generato anche da una grammatica di tipo superiore**
 
-![GERARCHIA_GRAMMATICHE.excalidraw](GERARCHIA_GRAMMATICHE.excalidraw.md)
+![GERARCHIA_GRAMMATICHE.excalidraw](Excalidraw/GERARCHIA_GRAMMATICHE.excalidraw.md)
 
 -----------------------------------------
 
