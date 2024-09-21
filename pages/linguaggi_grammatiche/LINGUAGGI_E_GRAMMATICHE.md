@@ -29,3 +29,5 @@ Insieme finito di tutte le stringhe ottenibili da un dato alfabeto $A$, in caso 
 
 
 -------
+
+ [NEXT](GRAMMATICA_FORMALE.md)
