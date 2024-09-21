@@ -1,3 +1,0 @@
-- produzioni che non ammettono la riaccorciatura della frase (*nessuna produzione ammette mai la stringa vuota*)
-	- ![image.png](image_1680616390017_0.png)
-	- si puo trasformare solo un metasimbolo per volta

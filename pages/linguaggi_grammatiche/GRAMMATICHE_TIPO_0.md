@@ -1,5 +1,11 @@
+---
+id: GRAMMATICHE DI TIPO 0
+aliases: []
+tags: []
+index: 4
+---
 #  GRAMMATICHE DI TIPO 0
- 
+
 sono grammatiche prive di restrizioni sulle produzioni, e ammessa la produzione della stringa vuota (ergo le frasi possono ridursi di lunghezza)
 
 un possibile esempio e il seguente:
@@ -19,4 +25,4 @@ $$
 
 ## RAMI DI DERIVAZIONE MORTI
 
-nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è possibile applicare altre produzioni** 
+nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è possibile applicare altre produzioni**, in questo caso si parla di ramo di derivazione morto
