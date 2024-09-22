@@ -11,10 +11,10 @@ sono grammatiche prive di restrizioni sulle produzioni, e ammessa la produzione 
 un possibile esempio e il seguente:
 
 $$
-\displaylines{
-S \rightarrow aSBC, \space CB \rightarrow BC, \space SB \rightarrow bF, \space FB \rightarrow bF, \\
-FC \rightarrow cG, \space GC \rightarrow cG, \space G \rightarrow \epsilon \\
-}
+S \rightarrow aSBC, \space CB \rightarrow BC, \space SB \rightarrow bF, \space FB \rightarrow bF,
+$$
+$$
+FC \rightarrow cG, \space GC \rightarrow cG, \space G \rightarrow \epsilon
 $$
 
 Notare che tale linguaggio **ammette produzioni in cui la frase viene accorciata**
