@@ -1,8 +1,8 @@
 ---
 id: PUMPING_LEMMA
-aliases: 
-tags: 
-index: 9
+aliases: []
+tags: []
+index: 10
 ---
 # PUMPING LEMMA
 
@@ -31,5 +31,6 @@ Se $L$ e un linguaggio di tipo 3 esiste un intero $N$ tale che per ogni stringa 
 Dove la componente centrale $y$ può essere ripetuta (*pompata*) per ottenere le altre frasi del linguaggio
 
 $$xy^iw \in L \forall i \geq 0$$
+
 
 [PREVIOUS](ESPRESSIONI_REGOLARI.md) [NEXT](RICONOSCERE_LINGUAGGI_TIPO_3.md)

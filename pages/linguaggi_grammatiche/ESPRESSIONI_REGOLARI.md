@@ -1,8 +1,8 @@
 ---
 id: ESPRESSIONI_REGOLARI
-aliases: 
-tags: 
-index: 8
+aliases: []
+tags: []
+index: 9
 ---
 # ESPRESSIONI REGOLARI
 
@@ -17,5 +17,6 @@ Le espressioni regolari sono un formalismo per distinguere una particolare tipol
 Ogni espressione regolare coincide con una corrispondente [grammatica regolare](GRAMMATICHE_REGOLARI.md), rispetto a una grammatica di tipo 3, **l'espressione regolare mostra cosa si ottiene da un linguaggio** mentre la **grammatica mostra il come si ottiene**
 
 ![image.png](image_1681653433735_0.png)
+
 
 [PREVIOUS](GRAMMATICHE_REGOLARI.md) [NEXT](PUMPING_LEMMA.md)

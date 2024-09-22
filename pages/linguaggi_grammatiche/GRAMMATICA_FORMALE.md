@@ -2,7 +2,7 @@
 id: GRAMMATICA FORMALE
 aliases: []
 tags: []
-index: 2
+index: 3
 ---
 # GRAMMATICHE FORMALI
 
@@ -17,7 +17,7 @@ Una stringa composta da simboli e metasimboli si dice forma di frase.
 
 ## DERIVAZIONE
 
-date due forme di frase $\alpha,\beta$ si dice che $\beta$ deriva direttamente da $\alpha$ se e vero che 
+date due forme di frase $\alpha,\beta$ si dice che $\beta$ deriva direttamente da $\alpha$ se e vero che
 
 $$
 a=\eta A\delta \space \beta = \eta \gamma\delta
@@ -36,4 +36,5 @@ $$
 quando due grammatiche producono lo stesso linguaggio si dice che sono equivalenti, stabilire se due grammatiche sono equivalenti e un problema indecidibile, inoltre **grammatiche diverse ma equivalenti potrebbero necessitare di riconoscitori diversi**
 
 
-[PREVIOUS](LINGUAGGI_E_GRAMMATICHE.md) [NEXT](CLASSIFICAZIONE_CHOMSKY.md)
+
+[PREVIOUS](COMPUTABILITA.md) [NEXT](CLASSIFICAZIONE_CHOMSKY.md)

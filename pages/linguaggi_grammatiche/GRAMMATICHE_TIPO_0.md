@@ -2,7 +2,7 @@
 id: GRAMMATICHE DI TIPO 0
 aliases: []
 tags: []
-index: 4
+index: 5
 ---
 #  GRAMMATICHE DI TIPO 0
 
@@ -26,4 +26,5 @@ $$
 ## RAMI DI DERIVAZIONE MORTI
 
 nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è possibile applicare altre produzioni**, in questo caso si parla di ramo di derivazione morto
+
 [PREVIOUS](CLASSIFICAZIONE_CHOMSKY.md) [NEXT](GRAMMATICHE_TIPO_1.md)

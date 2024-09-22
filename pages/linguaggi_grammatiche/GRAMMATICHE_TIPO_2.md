@@ -2,7 +2,7 @@
 id: GRAMMATICHE DI TIPO 2
 aliases: []
 tags: []
-index: 6
+index: 7
 ---
 # GRAMMATICHE DI TIPO 2 (CONTEXT FREE)
 
@@ -15,7 +15,7 @@ $$
 \alpha \in (VT\cup VN)*, A \in VN
 $$
 
-Inoltre in queste produzioni e ammessa la stringa vuota 
+Inoltre in queste produzioni e ammessa la stringa vuota
 
 ## SELF EMBEDDING
 
@@ -48,9 +48,9 @@ E[B1]
 F[B2]
 G[B3]
 A --> B & C & D
-B --> E 
-C --> F 
-D --> G 
+B --> E
+C --> F
+D --> G
 ```
 
 ## DERIVAZIONI CANONICHE
@@ -119,4 +119,5 @@ $$
 ### PERCHÉ NON ELIMINARE SEMPRE LA RICORSIONE SINISTRA
 
 La ricorsione sinistra può essere sempre eliminata, tuttavia l'operazione comporta un **esplicito cambiamento delle regole che generano il linguaggio**, e di conseguenza della semantica delle frasi stesse
+
 [PREVIOUS](GRAMMATICHE_TIPO_1.md) [NEXT](GRAMMATICHE_REGOLARI.md)

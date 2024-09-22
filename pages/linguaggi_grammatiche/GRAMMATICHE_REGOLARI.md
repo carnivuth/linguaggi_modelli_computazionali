@@ -2,7 +2,7 @@
 id: GRAMMATICHE REGOLARI
 aliases: []
 tags: []
-index: 7
+index: 8
 ---
 # GRAMMATICHE REGOLARI (TIPO 3)
 
@@ -12,7 +12,7 @@ grammatiche le cui  produzioni ammettono un solo simbolo non terminale nel membr
 | ---------------------------- | --------------------------- |
 | $$A \rightarrow \sigma  $$   | $$A \rightarrow \sigma  $$  |
 | $$A \rightarrow \sigma B  $$ | $$A \rightarrow B\sigma  $$ |
- 
+
  I linguaggi generati dalle grammatiche regolari coincidono con quelli descritti da [[ESPRESSIONI REGOLARI]]
 
 ```mermaid
@@ -22,5 +22,6 @@ B[ESPRESSIONI REGOLARI]
 A --> B
 B --> A
 ```
-a ogni grammatica regolare corrisponde un automa in grado di riconoscerla 
+a ogni grammatica regolare corrisponde un automa in grado di riconoscerla
+
 [PREVIOUS](GRAMMATICHE_TIPO_2.md) [NEXT](ESPRESSIONI_REGOLARI.md)

@@ -1,8 +1,8 @@
 ---
 id: RICONOSCERE_LINGUAGGI_TIPO_3
-aliases: 
-tags: 
-index: 10
+aliases: []
+tags: []
+index: 11
 ---
 # RICONOSCERE [LINGUAGGI DI TIPO 3](GRAMMATICHE_REGOLARI.md), L'AUTOMA A STATI FINITI
 
@@ -28,7 +28,7 @@ I((I))
 E((E))
 A((A))
 F((F))
-I --a--> A 
+c --a--> A
 I --b,u--> E
 F --a,b,u--> E
 A --b--> F
@@ -40,5 +40,6 @@ A --a--> A
 Un linguaggio di di tipo 3 e **non vuoto**  se il riconoscitore accetta una stringa x di lunghezza $L_x$ minore del numero di stati $N$
 
 Un linguaggio di di tipo 3 e **infinito** se il riconoscitore accetta una stringa x di lunghezza $N \lt L_x \lt 2N$ dove $N$ e il numero di stati del automa
+
 
 [PREVIOUS](PUMPING_LEMMA.md)
