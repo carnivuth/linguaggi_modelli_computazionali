@@ -13,7 +13,7 @@ grammatiche le cui  produzioni ammettono un solo simbolo non terminale nel membr
 | $$A \rightarrow \sigma  $$   | $$A \rightarrow \sigma  $$  |
 | $$A \rightarrow \sigma B  $$ | $$A \rightarrow B\sigma  $$ |
 
- I linguaggi generati dalle grammatiche regolari coincidono con quelli descritti da [[ESPRESSIONI REGOLARI]]
+ I linguaggi generati dalle grammatiche regolari coincidono con quelli descritti da [ESPRESSIONI_REGOLARI](ESPRESSIONI_REGOLARI.md)
 
 ```mermaid
 flowchart LR
