@@ -53,6 +53,8 @@ C --> F
 D --> G
 ```
 
+Questa struttura e possibile solo per le grammatiche di tipo 2, le grammatiche di [tipo 1](GRAMMATICHE_TIPO_1.md) e [0](GRAMMATICHE_TIPO_0.md) ammettendo a sinistra più di un membro genererebbero un grafo e non un albero
+
 ## DERIVAZIONI CANONICHE
 
 esistono derivazioni delle regole che formano alberi noti, la derivazione left-most che consente **nell'espansione del membro non terminale più a sinistra** e right-most che al contrario espande il membro più a destra
