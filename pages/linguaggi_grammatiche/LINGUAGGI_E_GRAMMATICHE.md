@@ -4,7 +4,6 @@ aliases: []
 tags: []
 index: 1
 ---
-
 # LINGUAGGI E GRAMMATICHE
 
 In informatica un linguaggio e un insieme finito di stringhe costruite su un insieme non vuoto di simboli atomici (*alfabeto*), una stringa (sequenza di simboli) si dice frase del linguaggio se e formata da simboli dell' alfabeto.
@@ -26,9 +25,5 @@ Un interprete di un linguaggio e un entità in grado di riconoscerne le frasi (*
 ## CHIUSURA DI UN ALFABETO
 
 Insieme finito di tutte le stringhe ottenibili da un dato alfabeto $A$, in caso la stringa vuota sia assente si parla di chiusura positiva di $A$
-
-
--------
-
 
  [NEXT](COMPUTABILITA.md)
