@@ -33,4 +33,4 @@ Dove la componente centrale $y$ può essere ripetuta (*pompata*) per ottenere le
 $$xy^iw \in L \forall i \geq 0$$
 
 
-[PREVIOUS](ESPRESSIONI_REGOLARI.md) [NEXT](RICONOSCERE_LINGUAGGI_TIPO_3.md)
+[PREVIOUS](ESPRESSIONI_REGOLARI.md) [NEXT](RSF.md)

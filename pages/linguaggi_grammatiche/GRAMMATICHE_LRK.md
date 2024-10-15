@@ -1,0 +1,2 @@
+# GRAMMATICHE $LR(K)$
+

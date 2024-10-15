@@ -1,10 +1,11 @@
 ---
 id: RICONOSCERE_LINGUAGGI_TIPO_3
-aliases: []
-tags: []
+aliases:
+  - RSF
+tags: 
 index: 11
 ---
-# RICONOSCERE [LINGUAGGI DI TIPO 3](GRAMMATICHE_REGOLARI.md), L'AUTOMA A STATI FINITI
+# AUTOMA A STATI FINITI
 
 Per riconoscere linguaggio di livello 3 e necessario un **automa a stati finiti**, questo può essere definito come
 
@@ -40,6 +41,20 @@ A --a--> A
 Un linguaggio di di tipo 3 e **non vuoto**  se il riconoscitore accetta una stringa x di lunghezza $L_x$ minore del numero di stati $N$
 
 Un linguaggio di di tipo 3 e **infinito** se il riconoscitore accetta una stringa x di lunghezza $N \lt L_x \lt 2N$ dove $N$ e il numero di stati del automa
+
+
+## DA RICONOSCITORI A GENERATORI
+
+La differenza fra riconoscitori di un linguaggio a generatori dello stesso e dipende da un cambio di prospettiva nella loro descrizione, riprendendo l'esempio di cui sopra:
+
+> *l'automa dallo stato $C$ si sposta in $A$ con input $a$*
+
+Si puo ache esprimere come segue:
+
+> *l'automa dallo stato $C$ genera la stringa a e si sposta nello stato $A$*
+
+In questo modo si possono interpretare il grafo di un automa come produzioni di una grammatica
+
 
 
 [PREVIOUS](PUMPING_LEMMA.md)
