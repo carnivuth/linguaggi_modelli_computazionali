@@ -1,14 +1,14 @@
 ---
 id: COMPUTABILITA
-aliases: 
-tags:
+aliases: []
+tags: []
 index: 2
 ---
 # TEORIA DELLA COMPUTABILITÀ
 
 La teoria della computabilità mira a comprendere le varie classi di problemi e a determinare se un dato problema può essere risolto da un automa esecutore.
 
-## PROBLEMA RISOLUBILE 
+## PROBLEMA RISOLUBILE
 
 Si dice che un problema $P$ e risolubile se questo può essere risolto da una macchina di Turing
 
@@ -52,4 +52,5 @@ In questo caso l'automa esecutore e in grado di rispondere affermativamente quan
 
 Un insieme $S$ e' detto decidibile se sia $S$ che il complemento $N-S$ sono [semidecidibili](#INSIEME%20RICORSIVAMENTE%20NUMERABILE%20(SEMI-DECIDIBILE)).
 Questo per un automa significa essere in grado di elencare sia gli elementi che fanno parte sia quelli che non fanno parte di un determinato linguaggio
+
 [PREVIOUS](LINGUAGGI_E_GRAMMATICHE.md) [NEXT](GRAMMATICA_FORMALE.md)

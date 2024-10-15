@@ -2,7 +2,7 @@
 id: RICONOSCERE_LINGUAGGI_TIPO_3
 aliases:
   - RSF
-tags: 
+tags: []
 index: 11
 ---
 # AUTOMA A STATI FINITI
@@ -57,4 +57,5 @@ In questo modo si possono interpretare il grafo di un automa come produzioni di 
 
 
 
-[PREVIOUS](PUMPING_LEMMA.md)
+
+[PREVIOUS](PUMPING_LEMMA.md) [NEXT](PDA.md)

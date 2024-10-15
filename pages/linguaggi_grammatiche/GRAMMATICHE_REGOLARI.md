@@ -24,4 +24,5 @@ B --> A
 ```
 a ogni grammatica regolare corrisponde un automa in grado di riconoscerla
 
+
 [PREVIOUS](GRAMMATICHE_TIPO_2.md) [NEXT](ESPRESSIONI_REGOLARI.md)

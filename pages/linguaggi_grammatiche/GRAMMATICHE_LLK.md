@@ -1,3 +1,10 @@
+---
+id: GRAMMATICHE_LLK
+aliases: []
+tags: []
+index: 13
+---
+
 # GRAMMATICHE $LL(k)$
 
 Le grammatiche $LL(k)$ sono grammatiche che risultano deterministiche al patto di poter *"sbirciare"* $k$ simboli di input, caso eccellente quello in cui $k=1$
@@ -39,7 +46,7 @@ Per ovviare a questo problema si estende la nozione di [starter symbols set](#ST
 $$
 FOLLOW(A) = \{a \in VT | S \rightarrow \gamma Aa\beta\}, con \space \gamma,\beta \in V^*
 $$
-ovvero l'insieme dei simboli terminali che compaiono come primi in caso di annullamento delle produzioni precedenti 
+ovvero l'insieme dei simboli terminali che compaiono come primi in caso di annullamento delle produzioni precedenti
 
 il director symbol set e dato da
 
@@ -49,7 +56,7 @@ $$
 
 ovvero la troncatura a un carattere della concatenazione dei due insiemi.
 
-## COME OTTENERE UNA GRAMMATICA $LL(1)$ 
+## COME OTTENERE UNA GRAMMATICA $LL(1)$
 
 Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il [director symbols set](#DIRECTOR%20SYMBOLS%20SET) relativi alle produzioni siano disgiunti
 
@@ -58,3 +65,5 @@ Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il
 Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](GRAMMATICHE_TIPO_2.md#ELIMINAZIONE%20DELLA%20RICORSIONE%20SINISTRA) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
 
 questa problematica puo essere risolta adottando tecniche di analisi piu avanzate come le [grammatiche LR(k)](GRAMMATICHE_LRK.md)
+
+[PREVIOUS](PDA.md) [NEXT](INTERPRETI.md)

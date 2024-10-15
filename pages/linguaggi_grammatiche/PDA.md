@@ -1,3 +1,10 @@
+---
+id: PDA
+aliases: []
+tags: []
+index: 12
+---
+
 # PUSH DOWN AUTOMATON
 
 Per poter riconoscere i linguaggi di [tipo 2](GRAMMATICHE_TIPO_2.md) e necessario poter processare stringhe che presentino forme di self embedding, di conseguenza un [automa a stati finiti](RSF.md#RICONOSCERE%20[LINGUAGGI%20DI%20TIPO%203](GRAMMATICHE_REGOLARI.md),%20L'AUTOMA%20A%20STATI%20FINITI) non sarebbe in grado in quanto dovrebbe avere un numero di stati non noto a priori (*non finiti*)
@@ -19,7 +26,7 @@ dove:
 
 ## PROCESSO DI RICONOSCIMENTO
 
-Per ogni stato l'automa calcola lo stato futuro e il simbolo da inserire nello stack in funzione dell'ingresso e del simbolo in cima allo stack 
+Per ogni stato l'automa calcola lo stato futuro e il simbolo da inserire nello stack in funzione dell'ingresso e del simbolo in cima allo stack
 
 ```mermaid
 flowchart TD
@@ -88,7 +95,7 @@ $$
 S \rightarrow (S)|c
 $$
 
-Si ottiene il seguente riconoscitore implementato sfruttando l'analisi ricorsiva discendente 
+Si ottiene il seguente riconoscitore implementato sfruttando l'analisi ricorsiva discendente
 
 ```python
 # variabili di comodo e input fissato (per semplicita)
@@ -140,3 +147,5 @@ L'analisi ricorsiva discendente e applicabile solo in caso in cui la grammatica 
 - memoria del passato (*stack*)
 - ma anche **parte del input ancora da consumare**
 
+
+[PREVIOUS](RSF.md) [NEXT](GRAMMATICHE_LLK.md)

@@ -42,4 +42,5 @@ le produzioni di Tipo 2 **ammettono un metasimbolo in qualunque punto della fras
 Le grammatiche 1 2 e 3 sono tutte riconoscibili, ma la capacita computazionale richiesta per riconoscerle cambia assieme alle capacita espressive della grammatica stessa, sta al progettista scegliere la corretta grammatica in base ai requisiti (*i linguaggi general purpose sono generati da grammatiche di tipo 2, riconosciute da un push down automaton*)
 
 
+
 [PREVIOUS](GRAMMATICA_FORMALE.md) [NEXT](GRAMMATICHE_TIPO_0.md)

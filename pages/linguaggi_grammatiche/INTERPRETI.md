@@ -1,3 +1,10 @@
+---
+id: INTERPRETI
+aliases: []
+tags: []
+index: 14
+---
+
 # INTERPRETI
 
 Riconoscere se una frase appartiene o meno a un linguaggio non e sufficiente, e necessario applicare anche una semantica alle frasi riconoscute
@@ -27,7 +34,7 @@ Per implementare una tale funzione si sfrutta la struttura data dalla grammatica
 
 Nel caso non si intenda eseguire immediatamente la semantica ma generare un output eseguibile in un secondo momento (*compilatori/linguaggi misti*) e necessario definire una rappresentazione della frase interpretata (*solitamente un albero*)
 
-si potrebbero usare gli [alberi di derivazione](GRAMMATICHE_TIPO_2.md#ALBERI%20DI%20DERIVAZIONE) ma questi risultano ridondanti e inefficienti, si ricorre quindi a una rappresentazione ridotta chiamata **abstract syntax tree** 
+si potrebbero usare gli [alberi di derivazione](GRAMMATICHE_TIPO_2.md#ALBERI%20DI%20DERIVAZIONE) ma questi risultano ridondanti e inefficienti, si ricorre quindi a una rappresentazione ridotta chiamata **abstract syntax tree**
 
 Alcuni degli elementi che possono essere rimossi dal albero sono:
 
@@ -42,3 +49,5 @@ Alcuni degli elementi che possono essere rimossi dal albero sono:
 Occorre un formalismo per poter descrivere la struttura [AST](#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE)), questo viene fatto per mezzo di una sintassi che descrive l'output del parser questa non deve essere non ambigua in quanto descrive l'output del parser, non lo guida al riconoscimento della frase
 
 Di conseguenza, l'output del parser sara un albero composto da istanze di una data classe in base a cosa viene definito dalla sintassi dell' AST
+
+[PREVIOUS](GRAMMATICHE_LLK.md)
