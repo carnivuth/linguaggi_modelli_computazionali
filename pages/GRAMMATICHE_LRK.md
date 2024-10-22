@@ -32,7 +32,7 @@ Tuttavia l'analisi LR risulta **più complessa da progettare e computazionalment
 
 Un parser $RL$ ricostruisce l'albero di derivazione della frase in analisi al contrario, di conseguenza necessita di comprendere quando sia necessario fare:
 
-- un operazione di **SHIFT**  ovvero leggere da input un altro valore (*aggiungere all'albero una foglia*) 
+- un operazione di **SHIFT**  ovvero leggere da input un altro valore (*aggiungere all'albero una foglia*)
 - un operazione di **REDUCE**  ovvero applicare al contrario una produzione (*costruire un nodo padre da 1 o più nodi figli*)
 
 La decisione viene presa in base a un **contesto corrente** (*stato*) in cui il riconoscitore si trova a operare
@@ -59,7 +59,7 @@ ovvero tutti i simboli che possono comparire a sinistra in una forma di frase ne
 
 ### CONTESTI SINISTRI DI UNA PRODUZIONE
 
-Data la definizione  di cui sopra e possibile calcolare i contesti di una data produzione come concatenazione dell'insieme dei $\beta$ e del valore $\alpha$, l'insieme dei $\beta$ e detto l'insieme dei **contesti sinistri di $A \rightarrow \alpha$** 
+Data la definizione  di cui sopra e possibile calcolare i contesti di una data produzione come concatenazione dell'insieme dei $\beta$ e del valore $\alpha$, l'insieme dei $\beta$ e detto l'insieme dei **contesti sinistri di $A \rightarrow \alpha$**
 
 $$
 leftctx(A) = \{\beta |  Z \overset{*}\Rightarrow \beta Aw, \space con \space w \in VT^*\}
@@ -67,7 +67,7 @@ $$
 
 Quindi per trovare i contesti $LR(0)$ e sufficiente trovare i contesti sinistri delle varie produzioni e concatenarli con il valore delle produzioni stesse
 
-### CALCOLO DEI CONTESTI SINISTRI 
+### CALCOLO DEI CONTESTI SINISTRI
 
 Data la produzione $B \rightarrow \gamma A\delta$ si puo dire che uno dei contributi al contesto sinistro di $A$ e dato dai contesti sinistri di $B$ concatenati al simbolo $\gamma$ :
 
@@ -191,13 +191,13 @@ Per poter effettuare con successo l'analisi $LR(0)$ date due produzioni $A \righ
 $$\theta \in LR(0)ctx(A \rightarrow \alpha)$$
 e
 $$\theta w \in LR(0)ctx(B \rightarrow \omega)$$
-allora deve essere vero che 
+allora deve essere vero che
 
 $$
 w=\epsilon, \space A=B, \space \alpha=\omega
 $$
 
-Ovvero ogni stato di riduzione dell'automa non deve avere archi uscenti caratterizzati da non terminali e sia etichettato 
+Ovvero ogni stato di riduzione dell'automa non deve avere archi uscenti caratterizzati da non terminali e sia etichettato
 
 ## LIMITI DELL'ANALISI $LR(0)$
 
@@ -230,12 +230,12 @@ $$
 L'automa riconoscitore si sviluppa similmente a quanto visto per il caso $k=0$ tuttavia il numero di stati dell'automa aumenta esponenzialmente con il numero di metasimboli e terminali dato che il numero di metasimboli della grammatica dei contesti sinistri e dato da:
 
 $$
-(n-1)\times t^k +1 
+(n-1)\times t^k +1
 $$
 
-con $t$ simboli terminali e $n$ simboli non terminali della grammatica 
+con $t$ simboli terminali e $n$ simboli non terminali della grammatica
 
-## APPROSSIMANDO $LR(0)$ 
+## APPROSSIMANDO $LR(0)$
 
 L'analisi $LR(1)$ per quanto potente risulta troppo complessa nel caso pratico, l'idea di base e quella di semplificare accorpando gli stati dell'automa che risultano simili fra loro
 

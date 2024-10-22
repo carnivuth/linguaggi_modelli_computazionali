@@ -2,20 +2,21 @@
 	"nodes":[
 		{"id":"8c86bc85c7a83e22","type":"group","x":-40,"y":-380,"width":1442,"height":1880,"color":"3","label":"TIPO 2"},
 		{"id":"55a961477856f66c","type":"group","x":2520,"y":-380,"width":1560,"height":1240,"color":"4","label":"TIPO 3"},
-		{"id":"ee637affaae72c18","type":"file","file":"pages/linguaggi_grammatiche/CLASSIFICAZIONE_CHOMSKY.md","x":1562,"y":-1560,"width":400,"height":400},
-		{"id":"4926007c90cedde7","type":"file","file":"pages/linguaggi_grammatiche/GRAMMATICA_FORMALE.md","x":1562,"y":-2120,"width":400,"height":400},
-		{"id":"f8133979f0ab9ea0","type":"file","file":"pages/linguaggi_grammatiche/LINGUAGGI_E_GRAMMATICHE.md","x":1562,"y":-2720,"width":400,"height":400},
-		{"id":"184df8374b6a837a","type":"file","file":"pages/linguaggi_grammatiche/COMPUTABILITA.md","x":2440,"y":-2720,"width":400,"height":400},
-		{"id":"a1c3fcd21abf7412","type":"file","file":"pages/linguaggi_grammatiche/GRAMMATICHE_TIPO_1.md","x":1962,"y":-880,"width":400,"height":400},
-		{"id":"16a34841154175fc","type":"file","file":"pages/linguaggi_grammatiche/GRAMMATICHE_TIPO_0.md","x":1162,"y":-880,"width":400,"height":400},
-		{"id":"1f0fe1aab1382862","type":"file","file":"pages/linguaggi_grammatiche/GRAMMATICHE_TIPO_2.md","x":502,"y":-360,"width":400,"height":396},
-		{"id":"6fcc33528ed03db9","type":"file","file":"pages/linguaggi_grammatiche/GRAMMATICHE_LLK.md","x":982,"y":1080,"width":400,"height":400},
-		{"id":"ee9b038f98fa39c4","type":"file","file":"pages/linguaggi_grammatiche/PDA.md","x":-20,"y":1080,"width":400,"height":400},
-		{"id":"3cb8cb3999eefc91","type":"file","file":"pages/linguaggi_grammatiche/RSF.md","x":2540,"y":440,"width":400,"height":400},
-		{"id":"a76176f4f826504b","type":"file","file":"pages/linguaggi_grammatiche/GRAMMATICHE_REGOLARI.md","x":2540,"y":-360,"width":400,"height":396},
-		{"id":"69df25e89d097a03","type":"file","file":"pages/linguaggi_grammatiche/ESPRESSIONI_REGOLARI.md","x":3660,"y":36,"width":400,"height":400},
-		{"id":"cc39ee13896a1838","type":"file","file":"pages/linguaggi_grammatiche/PUMPING_LEMMA.md","x":1562,"y":160,"width":400,"height":400},
-		{"id":"1d91901278c9ab4f","x":982,"y":2080,"width":400,"height":400,"type":"file","file":"pages/linguaggi_grammatiche/INTERPRETI.md"}
+		{"id":"ee637affaae72c18","type":"file","file":"pages/CLASSIFICAZIONE_CHOMSKY.md","x":1562,"y":-1560,"width":400,"height":400},
+		{"id":"4926007c90cedde7","type":"file","file":"pages/GRAMMATICA_FORMALE.md","x":1562,"y":-2120,"width":400,"height":400},
+		{"id":"f8133979f0ab9ea0","type":"file","file":"pages/LINGUAGGI_E_GRAMMATICHE.md","x":1562,"y":-2720,"width":400,"height":400},
+		{"id":"184df8374b6a837a","type":"file","file":"pages/COMPUTABILITA.md","x":2440,"y":-2720,"width":400,"height":400},
+		{"id":"a1c3fcd21abf7412","type":"file","file":"pages/GRAMMATICHE_TIPO_1.md","x":1962,"y":-880,"width":400,"height":400},
+		{"id":"16a34841154175fc","type":"file","file":"pages/GRAMMATICHE_TIPO_0.md","x":1162,"y":-880,"width":400,"height":400},
+		{"id":"1f0fe1aab1382862","type":"file","file":"pages/GRAMMATICHE_TIPO_2.md","x":502,"y":-360,"width":400,"height":396},
+		{"id":"6fcc33528ed03db9","type":"file","file":"pages/GRAMMATICHE_LLK.md","x":982,"y":1080,"width":400,"height":400},
+		{"id":"ee9b038f98fa39c4","type":"file","file":"pages/PDA.md","x":-20,"y":1080,"width":400,"height":400},
+		{"id":"3cb8cb3999eefc91","type":"file","file":"pages/RSF.md","x":2540,"y":440,"width":400,"height":400},
+		{"id":"a76176f4f826504b","type":"file","file":"pages/GRAMMATICHE_REGOLARI.md","x":2540,"y":-360,"width":400,"height":396},
+		{"id":"69df25e89d097a03","type":"file","file":"pages/ESPRESSIONI_REGOLARI.md","x":3660,"y":36,"width":400,"height":400},
+		{"id":"cc39ee13896a1838","type":"file","file":"pages/PUMPING_LEMMA.md","x":1562,"y":160,"width":400,"height":400},
+		{"id":"1d91901278c9ab4f","type":"file","file":"pages/INTERPRETI.md","x":982,"y":2080,"width":400,"height":400},
+		{"id":"8a8e5a3d58e12f7b","x":1962,"y":2080,"width":400,"height":400,"type":"file","file":"pages/GRAMMATICHE_LRK.md"}
 	],
 	"edges":[
 		{"id":"922f01ee7408ca2f","fromNode":"ee637affaae72c18","fromSide":"bottom","toNode":"a1c3fcd21abf7412","toSide":"top"},
@@ -36,6 +37,7 @@
 		{"id":"1b82ed3a70b83101","fromNode":"1f0fe1aab1382862","fromSide":"bottom","toNode":"6fcc33528ed03db9","toSide":"top","label":"SOTTOCLASSE\nSPECIALE"},
 		{"id":"96f44d8c6d69a78d","fromNode":"1f0fe1aab1382862","fromSide":"bottom","toNode":"cc39ee13896a1838","toSide":"top"},
 		{"id":"ef1200ecc178ce6e","fromNode":"a76176f4f826504b","fromSide":"bottom","toNode":"cc39ee13896a1838","toSide":"top"},
-		{"id":"2a42917385960130","fromNode":"6fcc33528ed03db9","fromSide":"bottom","toNode":"1d91901278c9ab4f","toSide":"top","label":"ANDANDO OLTRE\nIL SEMPLICE RICONOSCIMENTO"}
+		{"id":"2a42917385960130","fromNode":"6fcc33528ed03db9","fromSide":"bottom","toNode":"1d91901278c9ab4f","toSide":"top","label":"ANDANDO OLTRE\nIL SEMPLICE RICONOSCIMENTO"},
+		{"id":"79b7dc6ac15f706f","fromNode":"8a8e5a3d58e12f7b","fromSide":"top","toNode":"6fcc33528ed03db9","toSide":"right","label":"OLTRE L'ANALISI LL"}
 	]
 }
