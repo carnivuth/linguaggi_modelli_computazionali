@@ -38,4 +38,5 @@ quando due grammatiche producono lo stesso linguaggio si dice che sono equivalen
 
 
 
+
 [PREVIOUS](COMPUTABILITA.md) [NEXT](CLASSIFICAZIONE_CHOMSKY.md)

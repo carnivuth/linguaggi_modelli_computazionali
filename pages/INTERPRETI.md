@@ -4,7 +4,6 @@ aliases: []
 tags: []
 index: 14
 ---
-****
 # INTERPRETI
 
 Riconoscere se una frase appartiene o meno a un linguaggio non e sufficiente, e necessario applicare anche una semantica alle frasi riconosciute
@@ -314,4 +313,5 @@ L'environment può essere realizzato sfruttando l'implementazione diretta delle 
 
 
 
-[PREVIOUS](GRAMMATICHE_LLK.md)
+
+[PREVIOUS](GRAMMATICHE_LLK.md) [NEXT](GRAMMATICHE_LRK.md)

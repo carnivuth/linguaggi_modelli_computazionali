@@ -1,7 +1,8 @@
 ---
 id: GRAMMATICHE_LRK
-aliases: []
-tags: []
+aliases: 
+tags: 
+index: 15
 ---
 # ANALISI $LR(K)$
 
@@ -264,3 +265,5 @@ Un altra idea consiste nel accorpare assieme gli stati del parser $LR(1)$ identi
 - **CONTRO**: possono apparire conflitti reduce/reduce, tipicamente gestibili.
 
 
+
+[PREVIOUS](INTERPRETI.md)
