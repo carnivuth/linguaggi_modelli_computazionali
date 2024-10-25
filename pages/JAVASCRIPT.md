@@ -113,43 +113,41 @@ return // restituisce undefined
 18;// (statement irraggiungibile)
 ```
 
-Solite strutture if, switch, for, while, do/while
-• Costrutti per operare su oggetti: for … in … e with
-• NB: il for..in di JavaScript non equivale al foreach di Java
-poiché itera sui nomi degli elementi, non sugli elementi
-• per gli array, i nomi degli elementi sono gli indici (0,1,2…)
-• è una caratteristica utile per gli array associativi, che però può
-risultare fuorviante se sconosciuta o inattesa
+### STRUTTURE DI CONTROLLO
+
+Solite strutture `if`, `switch`, `for`, `while`
+• Costrutti per operare su oggetti: `for/in` e `with` (*il `for/in` itera sui nomi degli elementi, non sugli elementi stessi*)
+
+```javascript
+var array=[34,5,6]
+for (val in array){
+	console.log(val) //stampa l'indice non il valore
+}
+for (val in array){
+	console.log(array[val]) //stampa il valore
+}
+```
+
+### OPERATORI
+
+I Soliti  (`==`,`!=`,`>`,`<`,`>=`,`<=`)  e anche AND (`&&`), OR (`||`), NOT (`!`)
+
+Nella valutazione si considera **falso non solo il valore `false`**, ma ogni valore falsy ovvero anche `null`, `undefined`, la stringa vuota `''`, il valore `0`,`NaN` Ogni altro oggetto, inclusa la stringa `'false'`, è vero.
+
+### EVIL BROTHERS
+
+Gli operatori `==` e `=!` applicano type coercion secondo regole innaturali, con risultati talora incomprensibili (per compensare sono stati introdotti `===` e `!==`)
 
 
-Soliti operatori relazionali (==, !=, >, <, >=, <=)
-e logici AND (&&), OR (||), NOT (!)
-– PROBLEMA 1: nella valutazione si considera falso non solo il
-valore false, ma ogni valore falsy ovvero anche null,
-undefined, la stringa vuota (''), il valore 0 ed NaN
-Ogni altro oggetto, inclusa la stringa 'false', è vero.
-– PROBLEMA 2: == e != applicano type coercion secondo regole
-innaturali, con risultati talora incomprensibili → The evil brothers
-• The good brothers: nuovi operatori ===, !==
-– offrono una alternativa più sensata al comportamento discutibile
-dei due operatori classici ==, !=
-
-
-The evil brothers
-0 == '' true, perché sono entrambi falsy values (ehm..)
-0 == '0' true, perché.. 0 è coercibile a '0' (cough cough)
-false == 'false'
-false, come è giusto che sia, MA
-false == '0'
-true, perché sono due falsy (ehm..)
-false == undefined false (ok, accettabile)
-false == null
-false (ok, accettabile) MA
-null == undefined true – fulgido esempio di coerenza ☺
-La perla finale (anche con sottoparti della stringa):
-' \t\r\n' == 0
-true – perché..
-• The good brothers
-=== e !== non applicano type coercion → chiari e predicibili
-Riferimento: Douglas Crockford, "Javascript: The Good Parts", O'Reilly, 2008
+```javascript
+console.log(0 == '') //true, perché sono entrambi falsy values (ehm..)
+console.log(0 == '0') //true, perché.. 0 è coercibile a '0' (cough cough)
+console.log(false == 'false' )//false, come è giusto che sia, MA
+console.log(false == '0' )//true, perché sono due falsy (ehm..)
+console.log(false == undefined )//false (ok, accettabile)
+console.log(false == null )//false (ok, accettabile) MA
+console.log(null == undefined )//true – fulgido esempio di coerenza ☺
+//La perla finale (anche con sottoparti della stringa):
+console.log(' \t\r\n' == 0 )//true – perché..
+```
 
