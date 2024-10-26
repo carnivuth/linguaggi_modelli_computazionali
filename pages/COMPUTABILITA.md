@@ -54,4 +54,5 @@ Un insieme $S$ e' detto decidibile se sia $S$ che il complemento $N-S$ sono [sem
 Questo per un automa significa essere in grado di elencare sia gli elementi che fanno parte sia quelli che non fanno parte di un determinato linguaggio
 
 
+
 [PREVIOUS](LINGUAGGI_E_GRAMMATICHE.md) [NEXT](GRAMMATICA_FORMALE.md)

@@ -564,3 +564,4 @@ function show(ogg){
 }
 show(e)
 ```
+[PREVIOUS](PROCESSI_COMPUTAZIONALI.md) [NEXT](LAMBDA_CALCOLO.md)

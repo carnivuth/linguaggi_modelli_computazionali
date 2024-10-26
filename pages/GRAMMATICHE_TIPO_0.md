@@ -29,4 +29,5 @@ nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è 
 
 
 
+
 [PREVIOUS](CLASSIFICAZIONE_CHOMSKY.md) [NEXT](GRAMMATICHE_TIPO_1.md)

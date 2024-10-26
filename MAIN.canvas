@@ -16,7 +16,9 @@
 		{"id":"69df25e89d097a03","type":"file","file":"pages/ESPRESSIONI_REGOLARI.md","x":3660,"y":36,"width":400,"height":400},
 		{"id":"cc39ee13896a1838","type":"file","file":"pages/PUMPING_LEMMA.md","x":1562,"y":160,"width":400,"height":400},
 		{"id":"1d91901278c9ab4f","type":"file","file":"pages/INTERPRETI.md","x":982,"y":2080,"width":400,"height":400},
-		{"id":"8a8e5a3d58e12f7b","x":1962,"y":2080,"width":400,"height":400,"type":"file","file":"pages/GRAMMATICHE_LRK.md"}
+		{"id":"8a8e5a3d58e12f7b","type":"file","file":"pages/GRAMMATICHE_LRK.md","x":1962,"y":2080,"width":400,"height":400},
+		{"id":"2fa7eed302b61b78","type":"file","file":"pages/JAVASCRIPT.md","x":1562,"y":3040,"width":400,"height":400},
+		{"id":"8f9eaa2256814708","x":-20,"y":3040,"width":400,"height":400,"type":"file","file":"pages/PROCESSI_COMPUTAZIONALI.md"}
 	],
 	"edges":[
 		{"id":"922f01ee7408ca2f","fromNode":"ee637affaae72c18","fromSide":"bottom","toNode":"a1c3fcd21abf7412","toSide":"top"},
