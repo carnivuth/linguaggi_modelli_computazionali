@@ -1,7 +1,7 @@
 ---
 index: 17
 ---
-> eh beh era anche ora di impararlo..... stavolta sul serio
+>eh beh era anche ora di impararlo..... stavolta sul serio
 # JAVASCRIPT
 
 Linguaggio con un approccio funzionale con funzioni e chiusure semplice e pratico, con una sintassi leggera, adotta un modello object-based senza classi, basato sul concetto di prototipo è un linguaggio interpretato, con aspetti dinamici di grande interesse
@@ -164,7 +164,7 @@ function printSum(a,b) {
 var sum = (a,b) => a+b;
 ```
 
-> notare che i parametri non hanno dichiarazione di tipo
+>[!NOTE] notare che i parametri non hanno dichiarazione di tipo
 
 ### FUNCTION EXPRESSION VS FUNCTION DECLARATION
 
@@ -175,7 +175,7 @@ var f = function g(x){ return x/10; }
 g(32) 
 ```
 
-> ERRORE: il nome "g" è qui indefinito
+>[!ERROR] ERRORE: il nome "g" è qui indefinito
 
 l'operazione di function declaration definisce una funzione (*non sono possibili funzioni anonime*)
 
@@ -211,7 +211,8 @@ return function b(y){return x + y}
 console.log(a(3)(5))
 ```
 
-> Il currying è concettualmente interessante, perché indica che l’unico '*ingrediente*' fondamentale per esprimere qualunque funzione sono le **funzioni a un argomento**
+>[!NOTE] Il currying è concettualmente interessante, perché indica che l’unico '*ingrediente*' fondamentale per esprimere qualunque funzione sono le **funzioni a un argomento**
+
 
 ### IMPLEMENTARE NUOVE STRUTTURE DI CONTROLLO
 
@@ -310,7 +311,7 @@ delete p.bd
 console.log(p.bd);
 ```
 
-> sembrano array associativi 
+>[!QUOTE] sembrano array associativi 
 
 ### METODI E PROPRIETÀ DI CLASSE 
 

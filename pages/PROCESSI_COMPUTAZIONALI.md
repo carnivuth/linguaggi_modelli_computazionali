@@ -121,7 +121,7 @@ console.log(testEnv())
 // Javascript adotta la chiusura lessicale quindi l'output risulta
 ```
 
-> In caso di un approccio a chiusura dinamica l'output sarebbe stato determinato dalla ridefinizione di `x` nella funzione `testEnv` quindi `17`
+>[!NOTE] In caso di un approccio a chiusura dinamica l'output sarebbe stato determinato dalla ridefinizione di `x` nella funzione `testEnv` quindi `17`
 
 La chiusura lessicale viene preferita dalla totalità dei linguaggi mainstream (*la leggibilità del programma e un fattore chiave*)
 
