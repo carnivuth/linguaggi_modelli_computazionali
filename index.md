@@ -5,7 +5,7 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 ## CONTENTS
 
 - [teoria della computabilita](pages/COMPUTABILITA.md)
-- [linguaggi e definizioni formali](pages/LINGUAGGI_E_GRAMMATICHE.md)
+- [linguaggi e definizioni formali](LINGUAGGI_GRAMMATICHE.md)
 - [cosa si intende per grammatica](pages/GRAMMATICA_FORMALE.md)
 	- [grammatiche di tipo 0](pages/GRAMMATICHE_TIPO_0.md)
 	- [grammatiche di tipo 1](pages/GRAMMATICHE_TIPO_1.md)
