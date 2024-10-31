@@ -6,54 +6,82 @@ index: 2
 ---
 # TEORIA DELLA COMPUTABILITÀ
 
-La teoria della computabilità mira a comprendere le varie classi di problemi e a determinare se un dato problema può essere risolto da un automa esecutore.
+Partiamo dalla **TESI DI CHURCH-TURING**
 
-## PROBLEMA RISOLUBILE
+*Se un problema è umanamente calcolabile, allora esisterà una macchina di Turing in grado di risolverlo (cioè di calcolarlo)*
 
-Si dice che un problema $P$ e risolubile se questo può essere risolto da una macchina di Turing
+Da questo si deduce che non se la MdT non può risolvere un dato problema quel **problema e irresolubile**
 
-Dato un problema $P$ si possono dare le seguenti definizioni
+Ma cosa succede se una MdT non e in grado di risolvere un problema? **essa stessa si blocca in un loop** e non produce output di conseguenza si puo dare una definizione di **PROBLEMA RISOLUBILE COME SEGUE**
 
-## FUNZIONE CARATTERISTICA
+### PROBLEMA RISOLUBILE
 
-- sia $X$ l'insieme dei dati di ingresso di $P$
-- sia $Y$ l'insieme delle risposte corrette
+un problema la cui soluzione può essere espressa da una MdT (*o formalismo equivalente*)
 
-La funzione caratteristica di un dato problema e definita come
+Ma la MdT computa funzioni non problemi, occorre quindi definire formalmente il concetto di **funzione caratteristica di un problema** per colmare il divario
+
+Dato un problema $P$ e detti
+
+- l’insieme $X$ dei suoi dati di ingresso
+- l’insieme $Y$ delle risposte corrette
+
+si dice **funzione caratteristica del problema** $P$
 
 $$
-f_P:X \rightarrow Y
+f_P: X \rightarrow Y
 $$
 
-## FUNZIONE COMPUTABILE
+Con questo formalismo definito si può traslare la il problema della ricerca dei problemi risolubili su quello delle funzioni computabili e, riprendendo la tesi di Church-Turing:
 
-Una funzione $f:A\rightarrow B$ si dice computabile se esiste una macchina di Turing che dato sul nastro una rappresentazione di $x\in A$ dopo un numero finito di passi produce sul nastro una rappresentazione di $f(x)\in B$
+### FUNZIONE COMPUTABILE 
 
-Non tutte le funzioni sono computabili, per esempio:
+Una funzione $f: A\rightarrow B$ è computabile se esiste una MdT che
+- data sul nastro una rappresentazione di $x\in A$ dopo un **numero finito di passi**
+- produce sul nastro una rappresentazione di $f(x)\in B$
 
-- l'insieme delle funzioni definite sui naturali **non è numerabile**
-- l'insieme delle funzioni computabili **è numerabile**
+Date le definizioni viene spontaneo chiedersi se tutte le funzioni siano computabili o se esistano invece funzioni definibili ma non computabili  per far cio occorre confrontare i due insiemi
 
-Un altro esempio e il **problema dell'halt della macchina di Turing**
+Si fa presto dato che l’insieme delle funzioni dai naturali ai naturali 
 
-*stabilire se una data macchina di touring T con un generico ingresso X si ferma oppure no*
+$$
+F = \{ f: N → N \}
+$$
 
-Per quanto riguarda la generazione e il riconoscimento dei linguaggi e necessario determinare se un linguaggio sia decidibile
+non e numerabile a differenza di quello delle funzioni computabili, dato che la cardinalità dei simboli di ingresso, di uscita e di stati di una MdT è finito
 
-## INSIEME NUMERABILE
+Di conseguenza **la gran parte delle funzioni definibili non e computabile**, tuttavia questo non risulta essere un problema dato che le funzioni che sono interessanti per una macchina che deve riconoscere un linguaggio sono quelle definite su un insieme finito di simboli, tuttavia neanche questo sottoinsieme e '*fortunato*'
+
+### PROBLEMA DELL’ HALT DELLA MACCHINA DI TURING
+
+*Stabilire se una data macchina di Turing $T$, con un generico ingresso $X$, si ferma oppure no.*
+
+Tale problema, perfettamente definibile e tuttavia non computabile
+
+>[!QUOTE] Ma allora come deve essere un linguaggio per far si che la MdT possa computarlo?
+
+Poiché un linguaggio è un insieme di frasi, ci interessa indagare in generale il problema della **generabilità vs. decidibilità di un insieme**. 
+
+### INSIEME NUMERABILE
 
 Insieme per cui esiste una funzione $f:N\rightarrow I$ (*mappa l'insieme dei naturali in elementi dell'insieme*)
 
-## INSIEME RICORSIVAMENTE NUMERABILE (SEMI-DECIDIBILE)
+Tuttavia non e sufficiente, la funzione deve essere [computabile](#FUNZIONE%20COMPUTABILE)
+
+### INSIEME RICORSIVAMENTE NUMERABILE (SEMI-DECIDIBILE)
 
 Un insieme si dice ricorsivamente numerabile se $f: N\rightarrow I$ puo essere computata da una macchina di touring.
-In questo caso l'automa esecutore e in grado di rispondere affermativamente quando una determinata frase appartiene al linguaggio, ma non e in grado di stabilire se una frase non vi appartiene (*esempio dei numeri pari e dispari*)
-## INSIEME DECIDIBILE
+
+In questo caso l'automa esecutore e in grado di rispondere affermativamente quando una determinata frase appartiene al linguaggio, ma **non e in grado di stabilire se una frase non vi appartiene** (*esempio dei numeri pari e dispari*)
+
+### INSIEME DECIDIBILE
 
 Un insieme $S$ e' detto decidibile se sia $S$ che il complemento $N-S$ sono [semidecidibili](#INSIEME%20RICORSIVAMENTE%20NUMERABILE%20(SEMI-DECIDIBILE)).
+
 Questo per un automa significa essere in grado di elencare sia gli elementi che fanno parte sia quelli che non fanno parte di un determinato linguaggio
 
+E proprio qui che sta la chiave del problema, dato che i linguaggi di programmazione sono costruiti a partire da un alfabeto finito ma sono caratterizzati dall’insieme (infinito) delle frasi lecite Non basta che tale insieme possa essere generato, è indispensabile **poter decidere se una frase è**
+**giusta o sbagliata senza entrare in ciclo infinito**
 
-
+>[!QUOTE] In questo modo un compilatore e in grado di arrestarsi e segnalare errore se una **frase non appartiene al linguaggio**
 
 [PREVIOUS](LINGUAGGI_E_GRAMMATICHE.md) [NEXT](GRAMMATICA_FORMALE.md)
