@@ -1,6 +1,9 @@
 # LINGUAGGI E MODELLI COMPUTAZIONALI
 
+Knowledge base personale del corso di linguaggi e modelli computazionali
+
 ## CONTENTS
+
 - [teoria della computabilita](pages/COMPUTABILITA.md)
 - [linguaggi e definizioni formali](pages/LINGUAGGI_E_GRAMMATICHE.md)
 - [cosa si intende per grammatica](pages/GRAMMATICA_FORMALE.md)
