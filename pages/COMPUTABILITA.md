@@ -55,4 +55,5 @@ Questo per un automa significa essere in grado di elencare sia gli elementi che 
 
 
 
+
 [PREVIOUS](LINGUAGGI_E_GRAMMATICHE.md) [NEXT](GRAMMATICA_FORMALE.md)

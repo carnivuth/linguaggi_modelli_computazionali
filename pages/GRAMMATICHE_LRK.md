@@ -267,4 +267,5 @@ Un altra idea consiste nel accorpare assieme gli stati del parser $LR(1)$ identi
 
 
 
+
 [PREVIOUS](INTERPRETI.md) [NEXT](PROCESSI_COMPUTAZIONALI.md)

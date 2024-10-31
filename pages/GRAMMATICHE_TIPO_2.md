@@ -125,4 +125,5 @@ La ricorsione sinistra può essere sempre eliminata, tuttavia l'operazione compo
 
 
 
+
 [PREVIOUS](GRAMMATICHE_TIPO_1.md) [NEXT](GRAMMATICHE_REGOLARI.md)

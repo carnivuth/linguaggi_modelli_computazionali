@@ -22,4 +22,5 @@ Ogni espressione regolare coincide con una corrispondente [grammatica regolare](
 
 
 
+
 [PREVIOUS](GRAMMATICHE_REGOLARI.md) [NEXT](PUMPING_LEMMA.md)

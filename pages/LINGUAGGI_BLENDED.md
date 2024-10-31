@@ -1,3 +1,6 @@
+---
+index: 19
+---
 # LINGUAGGI BLENDED
 
 Sono linguaggi frutto di un mix intelligente fra i vecchi paradigmi e gli approcci dei linguaggi funzionali senza forzare la mano verso questi ultimi l'asciando allo sviluppatore la possibilita di scegliere come approcciare il problema, due degli esempi principali sono [scala](https://www.scala-lang.org/) e [kotlin](https://kotlinlang.org/)
@@ -139,3 +142,5 @@ Questo rende si le classi ridefinibili dinamicamente ma riduce la leggibilità d
 
 Sia scala che kotlin consentono di omettere il separatore `;` quando ovvio, inoltre scala supporta il principio d'accesso uniforme e la quiet syntax (*bidonata alla python maniera*)
 
+
+[PREVIOUS](LAMBDA_CALCOLO.md) [NEXT](SCALA.md)
