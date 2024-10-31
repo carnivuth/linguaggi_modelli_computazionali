@@ -46,4 +46,5 @@ Le grammatiche 1 2 e 3 sono tutte riconoscibili, ma la capacita computazionale r
 
 
 
+
 [PREVIOUS](GRAMMATICA_FORMALE.md) [NEXT](GRAMMATICHE_TIPO_0.md)

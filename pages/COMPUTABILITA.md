@@ -1,8 +1,8 @@
 ---
 id: COMPUTABILITA
-aliases: []
-tags: []
-index: 2
+aliases: 
+tags: 
+index: 1
 ---
 # TEORIA DELLA COMPUTABILITÀ
 
@@ -84,4 +84,5 @@ E proprio qui che sta la chiave del problema, dato che i linguaggi di programmaz
 
 >[!QUOTE] In questo modo un compilatore e in grado di arrestarsi e segnalare errore se una **frase non appartiene al linguaggio**
 
-[PREVIOUS](LINGUAGGI_GRAMMATICHE.md) [NEXT](GRAMMATICA_FORMALE.md)
+
+ [NEXT](LINGUAGGI_GRAMMATICHE.md)

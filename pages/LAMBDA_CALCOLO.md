@@ -257,4 +257,5 @@ console.log(Z(FactGen)(3))
 
 Il lambda calcolo e un formalismo estremamente potente che ha permesso di formalizzare le funzionalità che oggi vantano i linguaggi mainstream ma non e pensato per essere utilizzato direttamente dagli utenti finali
 
+
 [PREVIOUS](JAVASCRIPT.md) [NEXT](LINGUAGGI_BLENDED.md)

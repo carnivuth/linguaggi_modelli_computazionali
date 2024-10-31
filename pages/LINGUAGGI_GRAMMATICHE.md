@@ -2,7 +2,7 @@
 id: LINGUAGGI GRAMMATICHE
 aliases: 
 tags: 
-index: 1
+index: 2
 ---
 # LINGUAGGI E GRAMMATICHE
 
@@ -30,4 +30,5 @@ Insieme finito di tutte le stringhe ottenibili da un dato alfabeto $A$, in caso 
 
 
 
- [NEXT](COMPUTABILITA.md)
+
+[PREVIOUS](COMPUTABILITA.md) [NEXT](GRAMMATICA_FORMALE.md)
