@@ -12,7 +12,7 @@ Partiamo dalla **TESI DI CHURCH-TURING**
 
 Da questo si deduce che se la MdT non può risolvere un dato problema quel **problema e irresolubile**
 
-Ma cosa succede se una MdT non e in grado di risolvere un problema? **essa stessa si blocca in un loop** e non produce output di conseguenza si puo dare una definizione di **PROBLEMA RISOLUBILE COME SEGUE**
+Ma cosa succede se una MdT non e in grado di risolvere un problema? **essa stessa si blocca in un loop** e non produce output di conseguenza si può dare una definizione di **PROBLEMA RISOLUBILE** come segue
 
 ### PROBLEMA RISOLUBILE
 
