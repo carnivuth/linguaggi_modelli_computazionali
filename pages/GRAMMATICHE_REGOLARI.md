@@ -2,7 +2,7 @@
 id: GRAMMATICHE REGOLARI
 aliases: []
 tags: []
-index: 8
+index: 7
 ---
 # GRAMMATICHE REGOLARI (TIPO 3)
 

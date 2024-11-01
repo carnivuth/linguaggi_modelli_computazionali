@@ -2,7 +2,7 @@
 id: GRAMMATICHE DI TIPO 0
 aliases: []
 tags: []
-index: 5
+index: 4
 ---
 #  GRAMMATICHE DI TIPO 0
 

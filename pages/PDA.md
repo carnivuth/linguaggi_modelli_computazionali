@@ -2,7 +2,7 @@
 id: PDA
 aliases: []
 tags: []
-index: 12
+index: 11
 ---
 
 # PUSH DOWN AUTOMATON

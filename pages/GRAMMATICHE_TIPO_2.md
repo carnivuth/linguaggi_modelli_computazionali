@@ -2,7 +2,7 @@
 id: GRAMMATICHE DI TIPO 2
 aliases: []
 tags: []
-index: 7
+index: 6
 ---
 # GRAMMATICHE DI TIPO 2 (CONTEXT FREE)
 

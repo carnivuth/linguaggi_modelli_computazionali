@@ -2,7 +2,7 @@
 id: PUMPING_LEMMA
 aliases: []
 tags: []
-index: 10
+index: 9
 ---
 # PUMPING LEMMA
 

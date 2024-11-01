@@ -2,7 +2,7 @@
 id: GRAMMATICHE_LRK
 aliases: 
 tags: 
-index: 15
+index: 14
 ---
 # ANALISI $LR(K)$
 

@@ -2,7 +2,7 @@
 id: GRAMMATICHE_LLK
 aliases: []
 tags: []
-index: 13
+index: 12
 ---
 
 # GRAMMATICHE $LL(k)$

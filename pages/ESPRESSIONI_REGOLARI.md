@@ -2,7 +2,7 @@
 id: ESPRESSIONI_REGOLARI
 aliases: []
 tags: []
-index: 9
+index: 8
 ---
 # ESPRESSIONI REGOLARI
 

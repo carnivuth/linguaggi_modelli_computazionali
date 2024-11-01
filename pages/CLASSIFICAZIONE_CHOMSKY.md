@@ -2,7 +2,7 @@
 id: CLASSIFICAZIONE DELLE GRAMMATICHE (DI CHOMSKY)
 aliases: []
 tags: []
-index: 4
+index: 3
 ---
 # CLASSIFICAZIONE DI CHOMSKY
 
@@ -41,4 +41,4 @@ le produzioni di Tipo 2 **ammettono un metasimbolo in qualunque punto della fras
 
 Le grammatiche 1 2 e 3 sono tutte riconoscibili, ma la capacita computazionale richiesta per riconoscerle cambia assieme alle capacita espressive della grammatica stessa, sta al progettista scegliere la corretta grammatica in base ai requisiti (*i linguaggi general purpose sono generati da grammatiche di tipo 2, riconosciute da un push down automaton*)
 
-[PREVIOUS](pages/GRAMMATICA_FORMALE.md) [NEXT](pages/GRAMMATICHE_TIPO_0.md)
+[PREVIOUS](pages/LINGUAGGI_GRAMMATICHE.md) [NEXT](pages/GRAMMATICHE_TIPO_0.md)

@@ -3,7 +3,7 @@ id: RICONOSCERE_LINGUAGGI_TIPO_3
 aliases:
   - RSF
 tags: []
-index: 11
+index: 10
 ---
 # AUTOMA A STATI FINITI
 

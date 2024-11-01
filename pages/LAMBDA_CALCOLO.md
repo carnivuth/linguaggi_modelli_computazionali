@@ -1,5 +1,5 @@
 ---
-index: 18
+index: 17
 ---
 # LAMBDA CALCOLO
 

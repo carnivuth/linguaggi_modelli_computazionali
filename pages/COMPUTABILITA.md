@@ -1,7 +1,4 @@
 ---
-id: COMPUTABILITA
-aliases: 
-tags: 
 index: 1
 ---
 # TEORIA DELLA COMPUTABILITÀ
