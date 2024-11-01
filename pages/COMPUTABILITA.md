@@ -10,7 +10,7 @@ Partiamo dalla **TESI DI CHURCH-TURING**
 
 *Se un problema è umanamente calcolabile, allora esisterà una macchina di Turing in grado di risolverlo (cioè di calcolarlo)*
 
-Da questo si deduce che non se la MdT non può risolvere un dato problema quel **problema e irresolubile**
+Da questo si deduce che se la MdT non può risolvere un dato problema quel **problema e irresolubile**
 
 Ma cosa succede se una MdT non e in grado di risolvere un problema? **essa stessa si blocca in un loop** e non produce output di conseguenza si puo dare una definizione di **PROBLEMA RISOLUBILE COME SEGUE**
 
