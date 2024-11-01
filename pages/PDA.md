@@ -147,9 +147,4 @@ L'analisi ricorsiva discendente e applicabile solo in caso in cui la grammatica 
 - memoria del passato (*stack*)
 - ma anche **parte del input ancora da consumare**
 
-
-
-
-
-
-[PREVIOUS](RSF.md) [NEXT](GRAMMATICHE_LLK.md)
+[PREVIOUS](pages/RSF.md) [NEXT](pages/GRAMMATICHE_LLK.md)

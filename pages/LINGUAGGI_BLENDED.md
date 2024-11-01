@@ -142,6 +142,4 @@ Questo rende si le classi ridefinibili dinamicamente ma riduce la leggibilità d
 
 Sia scala che kotlin consentono di omettere il separatore `;` quando ovvio, inoltre scala supporta il principio d'accesso uniforme e la quiet syntax (*bidonata alla python maniera*)
 
-
-
-[PREVIOUS](LAMBDA_CALCOLO.md) [NEXT](SCALA.md)
+[PREVIOUS](pages/LAMBDA_CALCOLO.md) [NEXT](pages/SCALA.md)

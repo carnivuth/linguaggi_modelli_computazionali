@@ -15,9 +15,4 @@ $$
 \alpha \neq \epsilon
 $$
 
-
-
-
-
-
-[PREVIOUS](GRAMMATICHE_TIPO_0.md) [NEXT](GRAMMATICHE_TIPO_2.md)
+[PREVIOUS](pages/GRAMMATICHE_TIPO_0.md) [NEXT](pages/GRAMMATICHE_TIPO_2.md)

@@ -18,10 +18,4 @@ Ogni espressione regolare coincide con una corrispondente [grammatica regolare](
 
 ![image.png](image_1681653433735_0.png)
 
-
-
-
-
-
-
-[PREVIOUS](GRAMMATICHE_REGOLARI.md) [NEXT](PUMPING_LEMMA.md)
+[PREVIOUS](pages/GRAMMATICHE_REGOLARI.md) [NEXT](pages/PUMPING_LEMMA.md)

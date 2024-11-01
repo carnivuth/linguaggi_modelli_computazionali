@@ -27,9 +27,4 @@ $$
 
 nelle grammatiche di Tipo 0 è possibile arrivare a una **stringa in cui non è possibile applicare altre produzioni**, in questo caso si parla di ramo di derivazione morto
 
-
-
-
-
-
-[PREVIOUS](CLASSIFICAZIONE_CHOMSKY.md) [NEXT](GRAMMATICHE_TIPO_1.md)
+[PREVIOUS](pages/CLASSIFICAZIONE_CHOMSKY.md) [NEXT](pages/GRAMMATICHE_TIPO_1.md)

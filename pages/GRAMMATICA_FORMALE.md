@@ -35,11 +35,4 @@ $$
 
 quando due grammatiche producono lo stesso linguaggio si dice che sono equivalenti, stabilire se due grammatiche sono equivalenti e un problema indecidibile, inoltre **grammatiche diverse ma equivalenti potrebbero necessitare di riconoscitori diversi**
 
-
-
-
-
-
-
-
-[PREVIOUS](LINGUAGGI_GRAMMATICHE.md) [NEXT](CLASSIFICAZIONE_CHOMSKY.md)
+[PREVIOUS](pages/LINGUAGGI_GRAMMATICHE.md) [NEXT](pages/CLASSIFICAZIONE_CHOMSKY.md)

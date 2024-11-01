@@ -55,11 +55,4 @@ Si puo ache esprimere come segue:
 
 In questo modo si possono interpretare il grafo di un automa come produzioni di una grammatica
 
-
-
-
-
-
-
-
-[PREVIOUS](PUMPING_LEMMA.md) [NEXT](PDA.md)
+[PREVIOUS](pages/PUMPING_LEMMA.md) [NEXT](pages/PDA.md)

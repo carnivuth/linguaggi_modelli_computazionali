@@ -26,9 +26,4 @@ Un interprete di un linguaggio e un entità in grado di riconoscerne le frasi (*
 
 Insieme finito di tutte le stringhe ottenibili da un dato alfabeto $A$, in caso la stringa vuota sia assente si parla di chiusura positiva di $A$
 
-
-
-
-
-
-[PREVIOUS](COMPUTABILITA.md) [NEXT](GRAMMATICA_FORMALE.md)
+[PREVIOUS](pages/COMPUTABILITA.md) [NEXT](pages/GRAMMATICA_FORMALE.md)
