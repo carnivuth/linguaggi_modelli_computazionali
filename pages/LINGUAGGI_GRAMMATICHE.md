@@ -6,27 +6,55 @@ index: 2
 ---
 # LINGUAGGI E GRAMMATICHE
 
-In informatica un linguaggio e un insieme finito di stringhe costruite su un insieme non vuoto di simboli atomici (*alfabeto*), una stringa (sequenza di simboli) si dice frase del linguaggio se e formata da simboli dell' alfabeto.
+Per poter ottenere una [macchina di Turing universale](https://it.wikipedia.org/wiki/Macchina_di_Turing_universale) e necessario dare definizione formale di linguaggio, per comprendere l'inadeguatezza al riconoscimento di definizioni non formali ne citiamo una come segue
 
-Un linguaggio si compone di due concetti fondamentali **sintassi** e **semantica**
+*Un linguaggio è un insieme di parole e di metodi di combinazione delle parole usate e comprese da una comunità di persone*
 
-## SINTASSI DI UN LINGUAGGIO
+E necessario dunque esprimere **sintassi** (*notazioni BNF EBNF*) e **semantica** del linguaggio secondo notazioni formali (*funzioni matematiche/formule logiche*) 
 
-La sintassi di un linguaggio consiste in un insieme di regole formali che determinano le modalità di costruzione delle frasi di un linguaggio, questa viene espressa dalla [grammatica](GRAMMATICA_FORMALE)
+Da questa suddivisione si deduce quindi che una macchina di Turing universale deve adempiere a queste due operazioni
 
-## SEMANTICA DI UN LINGUAGGIO
+- **analisi lessicale** data una frase riconoscere le singole parole (**token**) di una frase
+- **analisi sintattica** data una sequenza di token generare una rappresentazione interna della frase (*alberi [AST](INTERPRETI.md#INTERPRETAZIONE%20DIFFERITA%20(ABSTRACT%20SYNTAX%20TREE))*)
+- **analisi semantica** data una frase corretta applicare la semantica corretta per la data frase
 
-La semantica di un linguaggio consiste nell'insieme dei significati da attribuire alle frasi del linguaggio stesso, questa viene rappresentata da azioni, funzioni matematiche, formule logiche
+## STRUTTURA DI UN LINGUAGGIO
 
-## INTERPRETAZIONE DI UN LINGUAGGIO
+*Ma quali sono gli elementi che compongono un linguaggio?*
 
-Un interprete di un linguaggio e un entità in grado di riconoscerne le frasi (*analisi sintattica*) e applicarne il corretto significato (*analisi semantica*)
+Per rispondere a questa domanda e necessario dare prima alcune definizioni:
 
-## CHIUSURA DI UN ALFABETO
+### ALFABETO
 
-Insieme finito di tutte le stringhe ottenibili da un dato alfabeto $A$, in caso la stringa vuota sia assente si parla di chiusura positiva di $A$
+un alfabeto $A$ è un insieme finito e non vuoto di simboli atomici. Esempio: $A = \{ a, b \}$
 
+### STRINGA
 
+un stringa è una sequenza di simboli, ossia un **elemento del prodotto cartesiano** $A^n$.
+
+### LINGUAGGIO 
+
+Dato un alfabeto $A$ un linguaggio $L$ definito su $A$ e un insieme di stringhe su $A$
+
+### CHIUSURA DI UN ALFABETO
+
+L'insime infinito di stringhe composte per mezzo della combinazione di a (*tutti i possibili prodotti cartesiani*)
+
+$$
+A^* = A^0 \cup A^1 \cup A^2 \cup A^3 .....
+$$
+
+#### CHIUSURA POSITIVA DI UN ALFABETO
+
+la [chiusura](#CHIUSURA%20DI%20UN%20ALFABETO) escludendo la stringa vuota
+
+$$
+A^+=A^* - \{\epsilon \}
+$$
+
+Ma come si puo dare una definizione delle frasi lecite di un linguaggio costruite su $A^*$?
+
+Se il linguaggio e infinito occorre una **notazione finita** in grado di descrivere un **insieme infinito di simboli** ovvero la **grammatica formale**
 
 ## GRAMMATICHE FORMALI
 
@@ -44,14 +72,14 @@ Una stringa composta da simboli e metasimboli si dice forma di frase.
 date due forme di frase $\alpha,\beta$ si dice che $\beta$ deriva direttamente da $\alpha$ se e vero che
 
 $$
-a=\eta A\delta \space \beta = \eta \gamma\delta
+a=\eta A\delta, \space \beta = \eta \gamma\delta
 $$
 
 ed esiste una produzione $A \rightarrow \gamma$, in caso non esista una produzione ma una catena di produzioni si parla di derivazione (*non diretta*)
 
 ## LINGUAGGIO GENERATO DALLA GRAMMATICA
 
-data una grammatica $G$ si dice linguaggio $L_G$ generato dalla grammatica $G$ **l'insieme delle frasi derivabili dal simbolo inziale della grammatica applicando le sue produzioni**
+data una grammatica $G$ si dice linguaggio $L_G$ generato dalla grammatica $G$ **l'insieme delle frasi derivabili dal simbolo iniziale della grammatica applicando le sue produzioni**
 
 $$
 L_G = \{ s \in VT^{*}: S\Rightarrow s\}
