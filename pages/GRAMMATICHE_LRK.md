@@ -70,13 +70,13 @@ Quindi per trovare i contesti $LR(0)$ e sufficiente trovare i contesti sinistri 
 
 ### CALCOLO DEI CONTESTI SINISTRI
 
-Data la produzione $B \rightarrow \gamma A\delta$ si puo dire che uno dei contributi al contesto sinistro di $A$ e dato dai contesti sinistri di $B$ concatenati al simbolo $\gamma$ :
+Data la produzione $B \rightarrow \gamma A\delta$ si può dire che uno dei contributi al contesto sinistro di $A$ e dato dai contesti sinistri di $B$ concatenati al simbolo $\gamma$ :
 
 $$
 leftctx(A) \supseteq leftctx(B) \bullet \{\gamma\}
 $$
 
-Il ragionamento si puo iterare fino a risalire allo scopo della grammatica che per definizione ha $leftctx(Z)=\{\epsilon\}$, inoltre dai due postulati si deriva che la **grammatica dei contesti e sempre [regolare a sinistra](ESPRESSIONI_REGOLARI.md#ESPRESSIONI%20REGOLARI%20E%20GRAMMATICHE)** (*riconoscibile da un [rsf](RSF.md#AUTOMA%20A%20STATI%20FINITI)*)
+Il ragionamento si può iterare fino a risalire allo scopo della grammatica che per definizione ha $leftctx(Z)=\{\epsilon\}$, inoltre dai due postulati si deriva che la **grammatica dei contesti e sempre [regolare a sinistra](ESPRESSIONI_REGOLARI.md#ESPRESSIONI%20REGOLARI%20E%20GRAMMATICHE)** (*riconoscibile da un [RSF](RSF.md#AUTOMA%20A%20STATI%20FINITI)*)
 
 Data la grammatica che segue:
 
