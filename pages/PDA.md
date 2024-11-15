@@ -37,21 +37,17 @@ D[push symbol to the stack]
 A --> B--> C--> D
 ```
 
-## LINGUAGGIO RICONOSCIUTO
+## CRITERI DI RICONOSCIMENTO
 
 Si può definire l'insieme delle frasi riconosciute da un PDA con due criteri
 
-### CRITERIO DELLO STACK VUOTO
-
-Un PDA riconosce correttamente una frase se essa svuota lo stack
-
-### CRITERIO DEGLI STATI FINALI
-
-Un PDA riconosce correttamente una frase se raggiunge uno stato finale (*come RSF*)
+| <br>CRITERIO DELLO STACK VUOTO                                   | <br>CRITERIO DEGLI STATI FINALI                                                               |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Un PDA riconosce correttamente una frase se essa svuota lo stack | Un PDA riconosce correttamente una frase se raggiunge uno stato finale (*come [RSF](RSF.md)*) |
 
 ## PDA NON DETERMINISTICI
 
-I PDA come gli RSF  possono presentare regole non deterministiche, ovvero produzioni dove l'automa non e in grado di decidere in quale stato portarsi
+I PDA come gli RSF possono presentare regole non deterministiche, ovvero produzioni dove l'automa non e in grado di decidere in quale stato portarsi
 
 Un PDA e non deterministico se con un singolo ingresso si porta in più stati futuri:
 
@@ -65,7 +61,7 @@ $$
 sfn(Qi, x, Z) \space e \space sfn(Qi, \epsilon, Z)
 $$
 
-A differenza degli RSF i PDA non sempre possono essere portati in una forma deterministica equivalent, inoltre
+A differenza degli [RSF](RSF.md) i PDA non sempre possono essere portati in una forma deterministica equivalente, inoltre
 
 > *la classe di linguaggi di [tipo 2](GRAMMATICHE_TIPO_2.md) coincide con quella riconosciuta da un PDA non deterministico*
 
@@ -100,30 +96,31 @@ Si ottiene il seguente riconoscitore implementato sfruttando l'analisi ricorsiva
 ```python
 # variabili di comodo e input fissato (per semplicita)
 i=0
-text="((((c)))"
+text="(((c)))"
 
 # funzione di comodo per ottenere il prossimo carattere della stringa
 def next():
-    global i
-    result=text[i]
-    i+=1
-    return result
+  global i
+  result=text[i]
+  i+=1
+  return result
 
 # metasimbolo S
 def S():
-    c=next()
-    if c == 'c':
+  c=next()
+  if c == 'c':
+    return True
+  if c == '(':
+    if S():
+      if next() == ')':
         return True
-    if c == '(':
-        if S():
-            if next() == ')':
-                return True
-            else:
-                return False
-    return False
+    else:
+        return False
+  return False
 
 # esecuzione dello scopo della grammatica e controllo risultato
-if S() and len(text) == i then print("good") else print("bad")
+if S() and len(text) == i: print("good")
+else: print("bad")
 ```
 
 ### IMPROVEMENT INGEGNERISTICI: SEPARAZIONE FRA ENGINE E REGOLE
@@ -146,5 +143,7 @@ L'analisi ricorsiva discendente e applicabile solo in caso in cui la grammatica 
 - stato attuale
 - memoria del passato (*stack*)
 - ma anche **parte del input ancora da consumare**
+
+Risulta quindi necessario definire un sottoinsieme di linguaggi di [tipo 2](GRAMMATICHE_TIPO_2.md) che siano riconoscibili in maniera deterministica guardando al più $k$ simboli in avanti, e il caso delle [grammatiche llk](GRAMMATICHE_LLK.md)
 
 [PREVIOUS](pages/RSF.md) [NEXT](pages/GRAMMATICHE_LLK.md)

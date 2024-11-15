@@ -73,11 +73,13 @@ Per i linguaggi generati da grammatiche di tipo 2 si possono evidenziare due for
 - se la stringa vuota non fa parte del linguaggio non esistono produzioni che la includono
 ### FORMA NORMALE DI CHOMSKY
 
-le produzioni hanno tutte la forma $A \rightarrow BC |a$
+le produzioni hanno tutte la forma $A \rightarrow BC|a$
+$con \space A,B,C \in VN, \space e \space a\in VT \cup \epsilon$
 
 ### FORMA NORMALE DI GREIBACH (*PER LINGUAGGI SENZA $\epsilon$*)
 
-le produzioni hanno tutte la forma $A \rightarrow BC |a$
+le produzioni hanno tutte la forma $A \rightarrow a\alpha$
+$con \space A \in VN, \space e \space a\in VT \space e \space \alpha \in VN^*$
 
 ## IL PROBLEMA DELLA RICORSIONE SINISTRA
 

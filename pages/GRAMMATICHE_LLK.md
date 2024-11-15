@@ -1,6 +1,6 @@
 ---
 id: GRAMMATICHE_LLK
-aliases: []
+aliases: [starter_symbol_set,director_symbol_set]
 tags: []
 index: 12
 ---
@@ -21,7 +21,7 @@ ovvero l'insieme di simboli terminali iniziali delle produzioni che coinvolgono 
 
 ## COME OTTENERE UNA GRAMMATICA $LL(1)$
 
-Condizione **necessaria** (sufficiente per le grammatiche senza $\epsilon -rules$) per far si che una grammatica sia $LL(1)$ e che gli starter symbols (*ovvero gli elementi iniziali della parte destra di una produzione*) di un metasimbolo siano tutti diversi fra loro
+Condizione **necessaria** (sufficiente per le grammatiche senza $\epsilon -rules$) per far si che una grammatica sia $LL(1)$ e che gli **starter symbols** (*ovvero gli elementi iniziali della parte destra di una produzione*) **di un metasimbolo siano tutti diversi fra loro**
 
 ## IL PROBLEMA DELLE $\epsilon$
 
@@ -64,6 +64,6 @@ Condizione necessaria e sufficiente per ottenere una grammatica $LL(1)$ e che il
 
 Le grammatiche $LL(k)$ non sono compatibili con la ricorsione a sinistra delle produzioni $A \rightarrow A\alpha | a$, che tuttavia [può essere sempre rimossa](GRAMMATICHE_TIPO_2.md#ELIMINAZIONE%20DELLA%20RICORSIONE%20SINISTRA) a patto di poter fare a meno della sua capacita espressiva (*no necessita di dare una semantica alla frase*)
 
-questa problematica puo essere risolta adottando tecniche di analisi piu avanzate come le [grammatiche LR(k)](GRAMMATICHE_LRK.md)
+questa problematica può essere risolta adottando tecniche di analisi più avanzate come le [grammatiche LR(k)](GRAMMATICHE_LRK.md)
 
 [PREVIOUS](pages/PDA.md) [NEXT](pages/INTERPRETI.md)
