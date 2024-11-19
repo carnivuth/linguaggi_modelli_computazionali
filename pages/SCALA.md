@@ -85,7 +85,6 @@ v.update(2,"Quack!")
 println(v(2))
 ```
 
-
 ### PROCEDURE
 
 Una funzione che non restituisce nulla è di tipo `Unit`, (non `void`),gli argomenti sono sempre implicitamente `val`, non `var`
@@ -278,12 +277,29 @@ object TestExceptions {
 
 >[!NOTE] ogni `case` cattura un caso attraverso pattern matching
 
+### PATTERN MATCHING
+
+In scala e possibile "*smontare*" un oggetto (*object destructuring*) in un insieme di componenti che possono poi essere riferite successivamente 
+
+```scala
+val coppia = (12, "dozzina")
+val (value,name) = coppia
+println(value)
+println(name)
+```
+
+Questo torna molto utile insieme al `for` per accedere in maniera pulita alle componenti di un oggetto
+
+```scala
+val persone=(("mario","rossi"),("mario","rossi"))
+for ((name,surname) <- persone) print(surname+" "+name)
+```
 ### COSTRUTTO MATCH
 
 scala rimpiazza il costrutto switch con un ben più potente costrutto `match` con le seguenti caratteristiche:
 
 - semantica a **casi distinti**, senza "fall through" (niente break)
-- nel costrutto `case` non solo sono ammesse etichette scalari o stringhe, ma anche selettori evoluti sfruttando il pattern matching su variabili  o costruttori di istanze 
+- nel costrutto `case` non solo sono ammesse etichette scalari o stringhe, ma anche selettori evoluti sfruttando il pattern matching su variabili  o costruttori di istanze
 
 ```scala
 case class Point(val x:Int,val y:Int){}
