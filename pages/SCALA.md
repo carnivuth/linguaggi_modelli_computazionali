@@ -342,4 +342,79 @@ def repeat(n:Int)(expr: =>Unit):Unit={
 repeat(3){print("hi")}
 ```
 
+## EREDITARIETÀ ESTESA: I TRATTI
+
+Scala estende il concetto delle interfacce java con i **tratti**, un tratto si definisce come segue
+
+```scala
+trait tratto{}
+```
+
+Come per le interfacce java un tratto non può generare istanze, ma al contrario delle stesse può definire codice e estendere altre classi 
+
+### MIXING DEI TRATTI
+
+un tratto può ereditare sia da un altro tratto che da una classe e una stessa classe può comporsi di più tratti:
+
+```scala
+class Animale(){}
+trait respira extends Animale{}
+trait cammina extends Animale{}
+class Cane extends Animale with respira with cammina(){}
+```
+
+>[!NOTE] In questo caso essendo che i tratti estendono direttamente la classe `Animale` possono essere composti solo con classi e tratti che **estendono la stessa classe**
+
+I tratti possono essere composti anche in fase di istanziazione di un oggetto:
+
+```scala
+class Animale(){}
+trait respira extends Animale{}
+trait cammina extends Animale{}
+val a = new Animale with cammina()
+val b = new Animale with respira()
+```
+
+### TRATTI E OVERRIDE DI METODI
+
+Un tratto puo a sua volta effettuare l'override di metodi della classe da cui eredita, per evitare ambiguita in caso di tratti che estendano lo stesso metodo, **la risoluzione della keyword `super` viene effettuata a runtime**
+
+```scala
+class Animale(nome:String){
+	override def toString():String={return this.nome}
+}
+trait Respira extends Animale{
+	override def toString():String={return super.toString + " respira"}
+}
+trait Cammina extends Animale{
+	override def toString():String={return super.toString + " cammina"}
+}
+println((new Animale("asdrubale") with Cammina with Respira).toString())
+println((new Animale("ubaldo") with Respira with Cammina).toString())
+```
+
+### RISOLUZIONE DI `super` PER MEZZO DELLA LINEARIZZAZIONE
+
+e possibile comporre i tratti perché la risoluzione delle catene di super avviene a runtime sfruttando il fatto che i tratti **non possono avere costruttori** di conseguenza non ci sono ambiguità nella catena risolutiva
+
+```mermaid
+flowchart TD
+A[calls Respira.toString]
+B[calls Cammina.toString]
+C[calls Animale.toString]
+A --> B --> C
+```
+### ALGORITMO DI LINEARIZZAZIONE
+
+data una classe definita come segue
+
+```scala
+class A extends B with C with D //.....
+```
+
+L'algoritmo di linearizzazione procede come segue:
+
+- si considera al catena della classe padre `B` (*che e sempre e solo una*)
+- si aggiungono se non presenti le catene dei tratti (*da sinistra a destra*)
+
 [PREVIOUS](pages/LINGUAGGI_BLENDED.md)
