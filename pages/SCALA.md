@@ -395,7 +395,7 @@ println((new Animale("ubaldo") with Respira with Cammina).toString())
 
 ### RISOLUZIONE DI `super` PER MEZZO DELLA LINEARIZZAZIONE
 
-e possibile comporre i tratti perché la risoluzione delle catene di super avviene a runtime sfruttando il fatto che i tratti **non possono avere costruttori** di conseguenza non ci sono ambiguità nella catena risolutiva
+e possibile comporre i tratti perché la risoluzione delle catene di `super` avviene a runtime sfruttando il fatto che i tratti **non possono avere costruttori** di conseguenza non ci sono ambiguità nella catena risolutiva
 
 ```mermaid
 flowchart TD
