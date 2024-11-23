@@ -1,7 +1,9 @@
 ---
 id: PDA
-aliases: []
-tags: []
+aliases: 
+  - analisi_ricorsiva_discendente
+  - push_down_automaton
+tags:
 index: 11
 ---
 
