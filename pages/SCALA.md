@@ -417,4 +417,97 @@ L'algoritmo di linearizzazione procede come segue:
 - si considera al catena della classe padre `B` (*che e sempre e solo una*)
 - si aggiungono se non presenti le catene dei tratti (*da sinistra a destra*)
 
+## COLLECTIONS
+
+In scala le collection sono fornite in due versioni, (*per non scoraggiare troppo le migrazioni di codebase da java*) 
+
+- mutable (*necessario import esplicito `scala.collection.mutable`*)
+- immutable (*importate di default*)
+
+tra le collection sono disponibili `List` `Array` `Tuple` `Set` `Map` 
+
+## VARIANZA E COVARIANZA
+
+In scala e possibile specificare la varianza dei tipi parametrici
+
+```scala
+class Coda[+T](...) {
+def append[U >: T](element: U) {..}
+}
+```
+
+## TIPO `Option`
+
+Scala introduce il tipo `Option` come analogo degli optional di java, questo per evitare argomenti passati come null (*si ricorda che ciò in scala non  e possibile per la [gerarchia di tipi](LINGUAGGI_BLENDED.md#TIPI)*) 
+
+## EXTRACTORS
+
+Le funzionalità di [pattern matching](#PATTERN%20MATCHING) di scala come definite sopra sono utilizzabili solo per mezzo di [classi dati](LINGUAGGI_BLENDED.md#CLASSI%20DATI), per poterle utilizzare anche con oggetti generati da classi normali scala mette a disposizione gli **extractors**,  ovvero oggetti che definiscono un metodo `unapply()` duale di `apply()` che estrae i valori di un oggetto
+
+Il metodo in questione deve essere definito al difuori della classe interessata (il miglior candidato risulta essere il [companion object](#COMPANION%20OBJECT))
+
+```scala
+// oggetto companion
+object Persona {
+	def unapply(p:Persona) : Option[(String,Int)] =Some(p.nome,p.year) 
+}
+
+// utilizzo dell extractor
+def filtra(x : AnyRef) =
+	x match {
+		case Persona(n, a) => a
+		case _ => "non mi piace"
+}
+```
+
+
+## INTEROPERABILITÀ CON `JAVA`
+
+Scala, compilando in bytecode  e eseguendo sulla JVM e direttamente interoperabile con java, infatti alcune delle funzionalita introdotte da scala sono mappate *quasi* in corrispettive astrazioni java
+
+- gli [oggetti singleton](#OGGETTO%20SINGLETON) vengono mappati su classi con metodi statici
+- i [tratti](#EREDITARIETÀ%20ESTESA%20I%20TRATTI) implementati come una interfaccia con una classe accessoria per il corpo dei metodi
+- i tipi generici si mappano quasi interamente sui tipi generici di java
+
+| SCALA                         | JAVA                                          |
+| ----------------------------- | --------------------------------------------- |
+| usare classi java             | usare classi scala                            |
+| estendere classi java         | usare oggetti scala (*con delle limitazioni*) |
+| usare framework java `javaFX` | usare classi scala con funzioni e chiusure    |
+
+## [INTERPRETI](INTERPRETI.md) IN SCALA: LA LIBRERIA PARSER COMBINATORS
+
+La libreria scala [`parser combinators`](https://index.scala-lang.org/scala/scala-parser-combinators) consente la creazione di parser custom per grammatiche anche **non deterministiche** (*a scapito delle performance*).
+
+La libreria definisce i seguenti operatori:
+
+- `|` per esprimere l'alternativa
+- `rep()` per esprimere la ripetizione di un elemento
+- `~` per esprimere la concatenazione
+- `()` per raggruppare
+
+La grammatica viene definita estendendo la classe java `JavaTokenParser` e le regole di produzione vengono mappate su funzioni scala
+
+```scala
+class MyGrammar extends JavaTokenParsers {
+	def A: Parser[Any] = A~rep("+"~B | "-"~B)
+	def B: Parser[Any] = B~rep("*"~B | "/"~B)
+	def C: Parser[Any] = floatingPointNumber | "("~A~")"
+}
+```
+
+la semantica può essere aggiunta con l'operatore `^^` 
+
+```scala
+class MyGrammar extends JavaTokenParsers {
+	def A: Parser[Any] = A~rep("+"~B | "-"~B)^^ {
+		// funzione che implementa la semantica
+		println(a)
+	}
+}
+```
+
+In caso di grammatiche [ll(1)](GRAMMATICHE_LLK.md#GRAMMATICHE%20$LL(k)$) la libreria genera comunque un parser in grado di fare backtracking, per evitare l'inefficienza e utile specificare che non e necessario supportarlo con l'operatore `!`
+
+
 [PREVIOUS](pages/LINGUAGGI_BLENDED.md)
