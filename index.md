@@ -8,7 +8,6 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 
 - [teoria della computabilita](pages/COMPUTABILITA.md)
 - [linguaggi e definizioni formali](LINGUAGGI_GRAMMATICHE.md)
-- [cosa si intende per grammatica](pages/GRAMMATICA_FORMALE.md)
 
 ### CLASSIFICAZIONE DELLE GRAMMATICHE
 
@@ -31,4 +30,4 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 - [javascript](JAVASCRIPT.md)
 - [lamda calcolo](LAMBDA_CALCOLO.md)
 - [linguaggi blended](LINGUAGGI_BLENDED.md)
-- [scala](SCA.md)
+- [SCALA](SCALA.md)
