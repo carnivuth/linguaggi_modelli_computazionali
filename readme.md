@@ -16,7 +16,7 @@ e presente un [sito statico](https://carnivuth.github.io/linguaggi_modelli_compu
 
 ## ESAME
 
-Nella repo e presente anche l'[esame](ESAME.md) che ho sostenuto in data 3/12/2024, sono inoltre presenti dei file javascript per far girare i pezzi di codice indipendentemente da obsidian, e richiesto il motore node
+Nella repo e presente anche l'[esame](pages/esame/ESAME.md) che ho sostenuto in data 3/12/2024, sono inoltre presenti dei file javascript per far girare i pezzi di codice indipendentemente da obsidian, e richiesto il motore node
 
 ## ESEGUIRE GLI SNIPPETS
 
