@@ -52,10 +52,10 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 ### CALCOLO DEI [CONTESTI SINISTRI](GRAMMATICHE_LRK.md#CONTESTI%20SINISTRI%20DI%20UNA%20PRODUZIONE)
 
 - $LEFTCTXLR(0)(Z) = \{\epsilon\}$
-- $LEFTCTXLR(0)(S) = \{LEFTCTXLR(0)(Z),LEFTCTXLR(0)(S)d\}$
-- $LEFTCTXLR(0)(A) = \{LEFTCTXLR(0)(S)dS,LEFTCTXLR(0)(A)a\}$
-- $LEFTCTXLR(0)(B) = \{LEFTCTXLR(0)(S)dSA,LEFTCTXLR(0)(S),LEFTCTXLR(0)(B)b\}$
-- $LEFTCTXLR(0)(C) = \{LEFTCTXLR(0)(A),LEFTCTXLR(0)(C),LEFTCTXLR(0)(S)B\}$
+- $LEFTCTXLR(0)(S) = LEFTCTXLR(0)(Z),LEFTCTXLR(0)(S)d$
+- $LEFTCTXLR(0)(A) = LEFTCTXLR(0)(S)dS,LEFTCTXLR(0)(A)a$
+- $LEFTCTXLR(0)(B) = LEFTCTXLR(0)(S)dSA,LEFTCTXLR(0)(S),LEFTCTXLR(0)(B)b$
+- $LEFTCTXLR(0)(C) = LEFTCTXLR(0)(A),LEFTCTXLR(0)(C),LEFTCTXLR(0)(S)B$
 
 ### CALCOLO DEI [CONTESTI LR(0)](GRAMMATICHE_LRK.md#CONTESTI%20$LR\(0\)$)
 
@@ -75,22 +75,22 @@ La grammatica in questione non risulta essere [lr(0)](GRAMMATICHE_LRK.md#ANALISI
 
 ### CALCOLO DEGLI INSIEMI $FOLLOW_1$
 
-- $FOLLOW_1(S)=\{\$,a,c\}$
-- $FOLLOW_1(A)=\{b,\$\},$
-- $FOLLOW_1(B)=\{c,\$\},$
-- $FOLLOW_1(C)=\{d,\$\}$
+- $FOLLOW_1(S)=END,a,c$
+- $FOLLOW_1(A)=b,END,$
+- $FOLLOW_1(B)=c,END,$
+- $FOLLOW_1(C)=d,END$
 
 e i conseguenti contesti $SLR$
 
 - $SLR(1)CTX(Z \rightarrow S) = \epsilon$
-- $SLR(1)CTX(S \rightarrow aSAB) = d^*dSAB(\$+a+c)$
-- $SLR(1)CTX(S \rightarrow BC) = d^*BC(\$+a+c)$
-- $SLR(1)CTX(A\rightarrow aA) = (d^*dS)a^*aA+aA))(b+\$)$
-- $SLR(1)CTX(A\rightarrow C) = a^*a(SC+C)(b+\$)$
-- $SLR(1)CTX(B \rightarrow bB) = (a^*aSA+a^*+b^*)bB(c,\$)$
-- $SLR(1)CTX(B \rightarrow \epsilon) = (a^*aSA+a^*+b^*)(c,\$)$
-- $SLR(1)CTX(C \rightarrow c) = ((a^*)B+aS)^*c(c+\$)$
-- $SLR(1)CTX(C \rightarrow Cd) = ((a^*)B+aS)^*Cd(c+\$)$
+- $SLR(1)CTX(S \rightarrow aSAB) = d^*dSAB(END+a+c)$
+- $SLR(1)CTX(S \rightarrow BC) = d^*BC(END+a+c)$
+- $SLR(1)CTX(A\rightarrow aA) = (d^*dS)a^*aA+aA))(b+END)$
+- $SLR(1)CTX(A\rightarrow C) = a^*a(SC+C)(b+END)$
+- $SLR(1)CTX(B \rightarrow bB) = (a^*aSA+a^*+b^*)bB(c,END)$
+- $SLR(1)CTX(B \rightarrow \epsilon) = (a^*aSA+a^*+b^*)(c,END)$
+- $SLR(1)CTX(C \rightarrow c) = ((a^*)B+aS)^*c(c+END)$
+- $SLR(1)CTX(C \rightarrow Cd) = ((a^*)B+aS)^*Cd(c+END)$
 
 La grammatica risulta essere $SLR$
 
