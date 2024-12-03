@@ -31,3 +31,7 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 - [lamda calcolo](LAMBDA_CALCOLO.md)
 - [linguaggi blended](LINGUAGGI_BLENDED.md)
 - [SCALA](SCALA.md)
+
+### ESAME
+
+- [esempi per l'esame che ho usato](esame/ESAME.md)
