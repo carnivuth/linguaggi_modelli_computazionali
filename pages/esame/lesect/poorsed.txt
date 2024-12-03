@@ -1,0 +1,1 @@
+console.log(x.replace(process.argv[3],process.argv[4]))
