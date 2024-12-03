@@ -34,4 +34,4 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 
 ### ESAME
 
-- [esempi per l'esame che ho usato](esame/ESAME.md)
+- [esempi per l'esame che ho usato](pages/esame/ESAME.md)
