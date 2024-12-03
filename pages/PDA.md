@@ -9,7 +9,7 @@ index: 11
 
 # PUSH DOWN AUTOMATON
 
-Per poter riconoscere i linguaggi di [tipo 2](GRAMMATICHE_TIPO_2.md) e necessario poter processare stringhe che presentino forme di self embedding, di conseguenza un [automa a stati finiti](RSF.md#RICONOSCERE%20[LINGUAGGI%20DI%20TIPO%203](GRAMMATICHE_REGOLARI.md),%20L'AUTOMA%20A%20STATI%20FINITI) non sarebbe in grado in quanto dovrebbe avere un numero di stati non noto a priori (*non finiti*)
+Per poter riconoscere i linguaggi di [tipo 2](GRAMMATICHE_TIPO_2.md) e necessario poter processare stringhe che presentino forme di [self embedding](GRAMMATICHE_TIPO_2.md#SELF%20EMBEDDING), di conseguenza un [automa a stati finiti](RSF.md#RICONOSCERE%20[LINGUAGGI%20DI%20TIPO%203](GRAMMATICHE_REGOLARI.md),%20L'AUTOMA%20A%20STATI%20FINITI) non sarebbe in grado in quanto dovrebbe avere un numero di stati non noto a priori (*non finiti*)
 
 Viene quindi introdotto il **push down automaton** (PDA), la differenza rispetto a un [automa a stati finiti](RSF.md#RICONOSCERE%20[LINGUAGGI%20DI%20TIPO%203](GRAMMATICHE_REGOLARI.md),%20L'AUTOMA%20A%20STATI%20FINITI) e la presenza di uno stack quindi la funzione di stato $sfn$  considera anche l'insieme dell alfabeto interno Z come ingresso $sfn:A\times Z \rightarrow S\times Z^*$
 

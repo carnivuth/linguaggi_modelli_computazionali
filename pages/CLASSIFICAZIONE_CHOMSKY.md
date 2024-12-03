@@ -19,7 +19,7 @@ esiste una relazione gerarchica fra le grammatiche, **un linguaggio generato da 
 
 ## PROBLEMA DELLA STRINGA VUOTA
 
-i linguaggi generati da [GRAMMATICHE DI TIPO 1](GRAMMATICHE_TIPO_1.md) non ammettono produzioni con la stringa vuota ma quelle di tipo 2 e 3 si data la relazione gerarchica grammatiche di tipo A possono generare linguaggi di tipo B con A>B **ma la grammatica di tipo A ha necessità computazionali più esose**
+i linguaggi generati da [GRAMMATICHE DI TIPO 1](GRAMMATICHE_TIPO_1.md) non ammettono produzioni con la stringa vuota ma quelle di tipo 2 e 3 si data la relazione gerarchica grammatiche di tipo $A$ possono generare linguaggi di tipo $B$ con $A\gt B$ **ma la grammatica di tipo $A$ ha necessità computazionali più esose**
 
 ## GRAMMATICHE, TIPO 1 VS TIPO 2
 

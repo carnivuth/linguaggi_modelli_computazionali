@@ -105,13 +105,13 @@ $$
 C\rightarrow A c | p
 $$
 
-- si puo applicare la sostituzione e ottenere
+- si può applicare la sostituzione e ottenere
 
 $$
 C \rightarrow Cbac|p
 $$
 
-- a questo punto si ha che qualunque sia la sequenza di derivazione le frasi prodotte inizieranno con il simbolo $p$, quindi si puo dire:
+- a questo punto si ha che qualunque sia la sequenza di derivazione le frasi prodotte inizieranno con il simbolo $p$, quindi si può dire:
 
 $$
 C \rightarrow p|pZ
