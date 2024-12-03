@@ -22,12 +22,12 @@ si dimostra per mezzo della stringa $d^ncc^n$ in cui non e identificabile il pez
 
 ### CALCOLO DEI [DIRECTOR SYMBOLS SET](GRAMMATICHE_LLK.md#DIRECTOR%20SYMBOLS%20SET)
 
-- $DSS(S -> dSAB)= {d}$
-- $DSS(S -> BC)= {c,b}$
-- $DSS(A -> aA)= {a}$
-- $DSS(A -> c)= {c}$
-- $DSS(B -> bB)= {b}$
-- $DSS(C -> c) ={c}$
+- $DSS(S -> dSAB)= \{d\}$
+- $DSS(S -> BC)= \{c,b\}$
+- $DSS(A -> aA)= \{a\}$
+- $DSS(A -> c)= \{c\}$
+- $DSS(B -> bB)= \{b\}$
+- $DSS(C -> c) =\{c\}$
 
 - aggiungere una regola di ricorsione sinistra e mostrare che la grammatica non e più $LL(1)$
 
@@ -51,11 +51,11 @@ La ricorsione sinistra e rimovibile ma si ottiene una grammatica diversa, non ot
 
 ### CALCOLO DEI [CONTESTI SINISTRI](GRAMMATICHE_LRK.md#CONTESTI%20SINISTRI%20DI%20UNA%20PRODUZIONE)
 
-- $LEFTCTXLR(0)(Z) = {\epsilon}$
-- $LEFTCTXLR(0)(S) = {LEFTCTXLR(0)(Z),LEFTCTXLR(0)(S)d}$
-- $LEFTCTXLR(0)(A) = {LEFTCTXLR(0)(S)dS,LEFTCTXLR(0)(A)a}$
-- $LEFTCTXLR(0)(B) = {LEFTCTXLR(0)(S)dSA,LEFTCTXLR(0)(S),LEFTCTXLR(0)(B)b}$
-- $LEFTCTXLR(0)(C) = {LEFTCTXLR(0)(A),LEFTCTXLR(0)(C),LEFTCTXLR(0)(S)B}$
+- $LEFTCTXLR(0)(Z) = \{\epsilon\}$
+- $LEFTCTXLR(0)(S) = \{LEFTCTXLR(0)(Z),LEFTCTXLR(0)(S)d\}$
+- $LEFTCTXLR(0)(A) = \{LEFTCTXLR(0)(S)dS,LEFTCTXLR(0)(A)a\}$
+- $LEFTCTXLR(0)(B) = \{LEFTCTXLR(0)(S)dSA,LEFTCTXLR(0)(S),LEFTCTXLR(0)(B)b\}$
+- $LEFTCTXLR(0)(C) = \{LEFTCTXLR(0)(A),LEFTCTXLR(0)(C),LEFTCTXLR(0)(S)B\}$
 
 ### CALCOLO DEI [CONTESTI LR(0)](GRAMMATICHE_LRK.md#CONTESTI%20$LR\(0\)$)
 
@@ -75,10 +75,10 @@ La grammatica in questione non risulta essere [lr(0)](GRAMMATICHE_LRK.md#ANALISI
 
 ### CALCOLO DEGLI INSIEMI $FOLLOW_1$
 
-- $FOLLOW_1(S)={\$,a,c}$
-- $FOLLOW_1(A)={b,\$},$
-- $FOLLOW_1(B)={c,\$},$
-- $FOLLOW_1(C)={d,\$}$
+- $FOLLOW_1(S)=\{\$,a,c\}$
+- $FOLLOW_1(A)=\{b,\$\},$
+- $FOLLOW_1(B)=\{c,\$\},$
+- $FOLLOW_1(C)=\{d,\$\}$
 
 e i conseguenti contesti $SLR$
 
