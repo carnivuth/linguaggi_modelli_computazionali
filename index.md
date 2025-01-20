@@ -2,14 +2,12 @@
 
 Knowledge base personale del corso di linguaggi e modelli computazionali
 
-## CONTENTS
-
-### TEORIA DEI LINGUAGGI
+## TEORIA DEI LINGUAGGI
 
 - [teoria della computabilita](pages/COMPUTABILITA.md)
 - [linguaggi e definizioni formali](LINGUAGGI_GRAMMATICHE.md)
 
-### CLASSIFICAZIONE DELLE GRAMMATICHE
+## CLASSIFICAZIONE DELLE GRAMMATICHE
 
 - [classificazione delle grammatiche di Chomsky](pages/CLASSIFICAZIONE_CHOMSKY.md)
 - [grammatiche di tipo 0](pages/GRAMMATICHE_TIPO_0.md)
@@ -24,7 +22,7 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 - [riconoscere una grammatica di tipo 3](pages/RSF.md)
 - [come distinguere grammatiche di tipo 2 e 3](pages/PUMPING_LEMMA.md)
 
-### LINGUAGGI BLENDED
+## LINGUAGGI BLENDED
 
 - [processi computazionali nei linguaggi](PROCESSI_COMPUTAZIONALI.md)
 - [javascript](JAVASCRIPT.md)
@@ -32,6 +30,6 @@ Knowledge base personale del corso di linguaggi e modelli computazionali
 - [linguaggi blended](LINGUAGGI_BLENDED.md)
 - [SCALA](SCALA.md)
 
-### ESAME
+## ESAME
 
 - [esempi per l'esame che ho usato](pages/esame/ESAME.md)
